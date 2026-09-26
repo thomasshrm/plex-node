@@ -1,0 +1,961 @@
+<SessionReport version="2" startTime="0" startTimestamp="Sep 26, 2026 07:53:50.628" key="/library/metadata/2" session="spmuyppxoqa7sf68cfyhalqw" transcode="kx9462fztse1qo5k5b5ppaa5">
+<User id="1" thumb="https://plex.tv/users/1a8236d8585edaf1/avatar?c=1790398711" title="thomas88328" />
+<Player address="127.0.0.1" device="Linux" machineIdentifier="yuq40wo4bmistmslwtyxellz" model="bundled" platform="Firefox" platformVersion="140.0" playbackId="ee9ec451-7174-4ede-8892-b4295235ab57" playbackSessionId="1e1c27db-b404-4a45-8cdd-eccf130e9db2" product="Plex Web" remotePublicAddress="86.104.20.66" title="Firefox" version="4.160.0" local="1" relayed="0" secure="0" userID="1" />
+<Variants>
+<Variant id="f4e63317-f552-4ff8-b3a9-408f70e51743" targetBitrate="10379" context="streaming" sourceVideoCodec="h264" sourceAudioCodec="eac3" videoDecision="copy" audioDecision="transcode" protocol="dash" container="mp4" videoCodec="h264" audioCodec="aac" audioChannels="2" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media audioProfile="dolby digital plus + dolby atmos" id="2" videoProfile="main" audioChannels="2" audioCodec="aac" bitrate="5070" container="mp4" duration="6006016" height="1080" optimizedForStreaming="1" protocol="dash" videoCodec="h264" videoFrameRate="24p" videoResolution="1080p" width="1920" selected="1">
+<Part audioProfile="dolby digital plus + dolby atmos" id="2" videoProfile="main" bitrate="5070" container="mp4" duration="6006016" height="1080" optimizedForStreaming="1" protocol="dash" width="1920" decision="transcode" selected="1">
+<Stream bitDepth="8" bitrate="4814" chromaLocation="left" chromaSubsampling="4:2:0" codec="h264" codedHeight="1088" codedWidth="1920" default="1" displayTitle="1080p" extendedDisplayTitle="1080p (H.264)" frameRate="24" hasScalingMatrix="0" height="1080" id="5" language="English" languageCode="eng" languageTag="en" level="40" profile="main" refFrames="3" scanType="progressive" streamType="1" width="1920" decision="copy" location="segments-video" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" default="1" displayTitle="English (EAC3 5.1 + Atmos)" extendedDisplayTitle="English (EAC3 5.1 + Atmos)" id="6" language="English" languageCode="eng" languageTag="en" selected="1" streamType="2" decision="transcode" location="segments-audio" />
+</Part>
+</Media>
+</Variant>
+<Variant id="801766c5-4b48-47a0-b226-ba4bb292565c" targetBitrate="10379" context="streaming" sourceVideoCodec="h264" sourceAudioCodec="eac3" videoDecision="copy" audioDecision="transcode" protocol="dash" container="mp4" videoCodec="h264" audioCodec="aac" audioChannels="2" width="1920" height="1080" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media audioProfile="dolby digital plus + dolby atmos" id="2" videoProfile="main" audioChannels="2" audioCodec="aac" bitrate="5070" container="mp4" duration="6006016" height="1080" optimizedForStreaming="1" protocol="dash" videoCodec="h264" videoFrameRate="24p" videoResolution="1080p" width="1920" selected="1">
+<Part audioProfile="dolby digital plus + dolby atmos" id="2" videoProfile="main" bitrate="5070" container="mp4" duration="6006016" height="1080" optimizedForStreaming="1" protocol="dash" width="1920" decision="transcode" selected="1">
+<Stream bitDepth="8" bitrate="4814" chromaLocation="left" chromaSubsampling="4:2:0" codec="h264" codedHeight="1088" codedWidth="1920" default="1" displayTitle="1080p" extendedDisplayTitle="1080p (H.264)" frameRate="24" hasScalingMatrix="0" height="1080" id="5" language="English" languageCode="eng" languageTag="en" level="40" profile="main" refFrames="3" scanType="progressive" streamType="1" width="1920" decision="copy" location="segments-video" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" default="1" displayTitle="English (EAC3 5.1 + Atmos)" extendedDisplayTitle="English (EAC3 5.1 + Atmos)" id="6" language="English" languageCode="eng" languageTag="en" selected="1" streamType="2" decision="transcode" location="segments-audio" />
+</Part>
+</Media>
+</Variant>
+<Variant id="a33516a1-687c-4622-82a2-0f4b936349b1" targetBitrate="10379" context="streaming" sourceVideoCodec="h264" sourceAudioCodec="eac3" videoDecision="copy" audioDecision="transcode" protocol="dash" container="mp4" videoCodec="h264" audioCodec="aac" audioChannels="2" width="1920" height="1080" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media audioProfile="dolby digital plus + dolby atmos" id="2" videoProfile="main" audioChannels="2" audioCodec="aac" bitrate="5070" container="mp4" duration="6006016" height="1080" optimizedForStreaming="1" protocol="dash" videoCodec="h264" videoFrameRate="24p" videoResolution="1080p" width="1920" selected="1">
+<Part audioProfile="dolby digital plus + dolby atmos" id="2" videoProfile="main" bitrate="5070" container="mp4" duration="6006016" height="1080" optimizedForStreaming="1" protocol="dash" width="1920" decision="transcode" selected="1">
+<Stream bitDepth="8" bitrate="4814" chromaLocation="left" chromaSubsampling="4:2:0" codec="h264" codedHeight="1088" codedWidth="1920" default="1" displayTitle="1080p" extendedDisplayTitle="1080p (H.264)" frameRate="24" hasScalingMatrix="0" height="1080" id="5" language="English" languageCode="eng" languageTag="en" level="40" profile="main" refFrames="3" scanType="progressive" streamType="1" width="1920" decision="copy" location="segments-video" />
+<Stream bitrate="256" bitrateMode="cbr" channels="2" codec="aac" default="1" displayTitle="English (EAC3 5.1 + Atmos)" extendedDisplayTitle="English (EAC3 5.1 + Atmos)" id="6" language="English" languageCode="eng" languageTag="en" selected="1" streamType="2" decision="transcode" location="segments-audio" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList>
+<Segment duration="4999" startOffset="0" endOffset="4999">
+<File name="chunk-stream0-00001.m4s" type="video">
+<FileVariant size="3315913" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00001.m4s" type="audio">
+<FileVariant size="123666" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="855" endTime="1028" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="855" endTime="1028" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="1101" endTime="1101" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="1110" endTime="1111" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="5000" startOffset="4999" endOffset="9999">
+<File name="chunk-stream0-00002.m4s" type="video">
+<FileVariant size="422993" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00002.m4s" type="audio">
+<FileVariant size="2886" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="1028" endTime="1074" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="1028" endTime="1074" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="1118" endTime="1118" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="1140" endTime="1140" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="9999" endOffset="15999">
+<File name="chunk-stream0-00003.m4s" type="video">
+<FileVariant size="890234" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00003.m4s" type="audio">
+<FileVariant size="156982" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Download startTime="1150" endTime="1451" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743">
+<Pause type="segmentWait" startTime="1150" endTime="1451" />
+</Download>
+<Transcode startTime="1074" endTime="1377" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="1074" endTime="1377" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="2131" endTime="2132" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="15999" endOffset="19999">
+<File name="chunk-stream0-00004.m4s" type="video">
+<FileVariant size="42333" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00004.m4s" type="audio">
+<FileVariant size="123618" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Download startTime="1462" endTime="1562" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743">
+<Pause type="segmentWait" startTime="1462" endTime="1562" />
+</Download>
+<Transcode startTime="1377" endTime="1484" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="1377" endTime="1484" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="2137" endTime="2137" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="19999" endOffset="25999">
+<File name="chunk-stream0-00005.m4s" type="video">
+<FileVariant size="66642" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00005.m4s" type="audio">
+<FileVariant size="183461" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="1484" endTime="1636" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="1484" endTime="1636" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="2141" endTime="2141" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="2568" endTime="2568" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="25999" endOffset="29999">
+<File name="chunk-stream0-00006.m4s" type="video">
+<FileVariant size="48499" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00006.m4s" type="audio">
+<FileVariant size="128348" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="1636" endTime="1764" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="1636" endTime="1764" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="2147" endTime="2148" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="2572" endTime="2572" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="29999" endOffset="35999">
+<File name="chunk-stream0-00007.m4s" type="video">
+<FileVariant size="1286463" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00007.m4s" type="audio">
+<FileVariant size="185730" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="1764" endTime="1928" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="1764" endTime="1928" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="2577" endTime="2578" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="3155" endTime="3155" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="35999" endOffset="39999">
+<File name="chunk-stream0-00008.m4s" type="video">
+<FileVariant size="3197123" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00008.m4s" type="audio">
+<FileVariant size="124137" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="1928" endTime="2104" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="1928" endTime="2104" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="2591" endTime="2593" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="3159" endTime="3159" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="39999" endOffset="45999">
+<File name="chunk-stream0-00009.m4s" type="video">
+<FileVariant size="5040841" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00009.m4s" type="audio">
+<FileVariant size="183267" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="2104" endTime="2319" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="2104" endTime="2319" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="3163" endTime="3163" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="3619" endTime="3621" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="45999" endOffset="49999">
+<File name="chunk-stream0-00010.m4s" type="video">
+<FileVariant size="3124806" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00010.m4s" type="audio">
+<FileVariant size="121873" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="2319" endTime="2437" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="2319" endTime="2437" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="3168" endTime="3168" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="3654" endTime="3656" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="49999" endOffset="55999">
+<File name="chunk-stream0-00011.m4s" type="video">
+<FileVariant size="4660931" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00011.m4s" type="audio">
+<FileVariant size="189586" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="2437" endTime="2582" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="2437" endTime="2582" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="3682" endTime="3684" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="4178" endTime="4179" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="55999" endOffset="59999">
+<File name="chunk-stream0-00012.m4s" type="video">
+<FileVariant size="1896791" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00012.m4s" type="audio">
+<FileVariant size="121349" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="2582" endTime="2681" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="2582" endTime="2681" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Download startTime="3718" endTime="3719" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="59999" endOffset="65999">
+<File name="chunk-stream0-00013.m4s" type="video">
+<FileVariant size="3937622" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00013.m4s" type="audio">
+<FileVariant size="182724" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="2681" endTime="2890" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="2681" endTime="2890" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="65999" endOffset="69999">
+<File name="chunk-stream0-00014.m4s" type="video">
+<FileVariant size="2605897" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00014.m4s" type="audio">
+<FileVariant size="122634" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="2890" endTime="3025" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="2890" endTime="3025" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="69999" endOffset="75999">
+<File name="chunk-stream0-00015.m4s" type="video">
+<FileVariant size="3915816" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00015.m4s" type="audio">
+<FileVariant size="183812" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="3025" endTime="3239" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="3025" endTime="3239" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="75999" endOffset="79999">
+<File name="chunk-stream0-00016.m4s" type="video">
+<FileVariant size="1837644" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00016.m4s" type="audio">
+<FileVariant size="123607" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="3239" endTime="3411" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="3239" endTime="3411" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="79999" endOffset="85999">
+<File name="chunk-stream0-00017.m4s" type="video">
+<FileVariant size="3459505" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00017.m4s" type="audio">
+<FileVariant size="182918" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="3411" endTime="3603" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="3411" endTime="3603" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="85999" endOffset="89999">
+<File name="chunk-stream0-00018.m4s" type="video">
+<FileVariant size="2874252" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00018.m4s" type="audio">
+<FileVariant size="122139" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="3603" endTime="3749" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="3603" endTime="3749" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="89999" endOffset="95999">
+<File name="chunk-stream0-00019.m4s" type="video">
+<FileVariant size="3514231" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00019.m4s" type="audio">
+<FileVariant size="185379" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="3749" endTime="3951" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="3749" endTime="3951" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="95999" endOffset="99999">
+<File name="chunk-stream0-00020.m4s" type="video">
+<FileVariant size="2317386" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<File name="chunk-stream1-00020.m4s" type="audio">
+<FileVariant size="130549" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</File>
+<Timelines>
+<Transcode startTime="3951" endTime="4077" complete="1" fileType="video" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+<Transcode startTime="3951" endTime="4077" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743" />
+</Timelines>
+</Segment>
+<Segment duration="5999" startOffset="654000" endOffset="659999">
+<File name="chunk-stream0-00132.m4s" type="video">
+<FileVariant size="3876814" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<File name="chunk-stream1-00132.m4s" type="audio">
+<FileVariant size="186756" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<Timelines>
+<Download startTime="4199" endTime="4600" complete="1" fileType="audio" variant="f4e63317-f552-4ff8-b3a9-408f70e51743">
+<Pause type="segmentWait" startTime="4199" endTime="4599" />
+</Download>
+<Download startTime="4201" endTime="4604" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="4201" endTime="4601" />
+</Download>
+<Transcode startTime="4200" endTime="4572" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+<Transcode startTime="4200" endTime="4572" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="659999" endOffset="663999">
+<File name="chunk-stream0-00133.m4s" type="video">
+<FileVariant size="2683363" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<File name="chunk-stream1-00133.m4s" type="audio">
+<FileVariant size="121634" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<Timelines>
+<Download startTime="4614" endTime="4715" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="4614" endTime="4715" />
+</Download>
+<Download startTime="4632" endTime="4734" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="4632" endTime="4732" />
+</Download>
+<Transcode startTime="4572" endTime="4714" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+<Transcode startTime="4572" endTime="4714" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</Timelines>
+</Segment>
+<Segment duration="5708" startOffset="663999" endOffset="669708">
+<File name="chunk-stream0-00134.m4s" type="video">
+<FileVariant size="3102437" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<File name="chunk-stream1-00134.m4s" type="audio">
+<FileVariant size="173507" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<Timelines>
+<Download startTime="4721" endTime="5022" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="4721" endTime="5021" />
+</Download>
+<Download startTime="4760" endTime="4962" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="4760" endTime="4960" />
+</Download>
+<Transcode startTime="4714" endTime="4931" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+<Transcode startTime="4714" endTime="4931" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</Timelines>
+</Segment>
+<Segment duration="4291" startOffset="669708" endOffset="673999">
+<File name="chunk-stream0-00135.m4s" type="video">
+<FileVariant size="3183481" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<File name="chunk-stream1-00135.m4s" type="audio">
+<FileVariant size="133543" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<Timelines>
+<Download startTime="4985" endTime="5187" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="4985" endTime="5186" />
+</Download>
+<Download startTime="5031" endTime="5231" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="5031" endTime="5231" />
+</Download>
+<Transcode startTime="4931" endTime="5138" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+<Transcode startTime="4931" endTime="5138" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</Timelines>
+</Segment>
+<Segment duration="5208" startOffset="673999" endOffset="679208">
+<File name="chunk-stream0-00136.m4s" type="video">
+<FileVariant size="2890677" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<File name="chunk-stream1-00136.m4s" type="audio">
+<FileVariant size="161528" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<Timelines>
+<Download startTime="5220" endTime="5422" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="5220" endTime="5421" />
+</Download>
+<Download startTime="5236" endTime="5436" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="5236" endTime="5436" />
+</Download>
+<Transcode startTime="5138" endTime="5380" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+<Transcode startTime="5138" endTime="5380" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</Timelines>
+</Segment>
+<Segment duration="4791" startOffset="679208" endOffset="683999">
+<File name="chunk-stream0-00137.m4s" type="video">
+<FileVariant size="3167448" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<File name="chunk-stream1-00137.m4s" type="audio">
+<FileVariant size="147947" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</File>
+<Timelines>
+<Download startTime="5442" endTime="5644" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="5442" endTime="5642" />
+</Download>
+<Download startTime="5443" endTime="5643" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="5443" endTime="5643" />
+</Download>
+<Transcode startTime="5380" endTime="5612" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+<Transcode startTime="5380" endTime="5612" complete="1" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</Timelines>
+</Segment>
+<Segment duration="0" startOffset="-1" endOffset="-1">
+<Timelines>
+<Download startTime="5656" fileType="audio" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+<Download startTime="5668" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c" />
+</Timelines>
+</Segment>
+<Segment duration="5624" startOffset="2054000" endOffset="2059624">
+<File name="chunk-stream0-00412.m4s" type="video">
+<FileVariant size="3674679" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00412.m4s" type="audio">
+<FileVariant size="168629" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="5828" endTime="6130" complete="1" fileType="video" variant="801766c5-4b48-47a0-b226-ba4bb292565c">
+<Pause type="segmentWait" startTime="5828" endTime="6128" />
+</Download>
+<Download startTime="5829" endTime="6130" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="5829" endTime="6130" />
+</Download>
+<Transcode startTime="5829" endTime="6113" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="5829" endTime="6113" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4375" startOffset="2059624" endOffset="2063999">
+<File name="chunk-stream0-00413.m4s" type="video">
+<FileVariant size="2846919" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00413.m4s" type="audio">
+<FileVariant size="132736" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="6144" endTime="6345" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="6144" endTime="6345" />
+</Download>
+<Download startTime="6161" endTime="6263" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="6161" endTime="6261" />
+</Download>
+<Transcode startTime="6113" endTime="6259" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="6113" endTime="6259" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="5833" startOffset="2063999" endOffset="2069833">
+<File name="chunk-stream0-00414.m4s" type="video">
+<FileVariant size="3631438" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00414.m4s" type="audio">
+<FileVariant size="176518" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="6286" endTime="6589" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="6286" endTime="6587" />
+</Download>
+<Download startTime="6349" endTime="6549" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="6349" endTime="6549" />
+</Download>
+<Transcode startTime="6259" endTime="6512" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="6259" endTime="6512" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4166" startOffset="2069833" endOffset="2073999">
+<File name="chunk-stream0-00415.m4s" type="video">
+<FileVariant size="2572342" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00415.m4s" type="audio">
+<FileVariant size="126301" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="6556" endTime="6757" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="6556" endTime="6757" />
+</Download>
+<Download startTime="6614" endTime="6715" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="6614" endTime="6714" />
+</Download>
+<Transcode startTime="6512" endTime="6661" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="6512" endTime="6661" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2073999" endOffset="2079999">
+<File name="chunk-stream0-00416.m4s" type="video">
+<FileVariant size="3839643" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00416.m4s" type="audio">
+<FileVariant size="182676" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="6736" endTime="6938" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="6736" endTime="6936" />
+</Download>
+<Download startTime="6761" endTime="6962" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="6761" endTime="6961" />
+</Download>
+<Transcode startTime="6661" endTime="6882" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="6661" endTime="6882" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2079999" endOffset="2083999">
+<File name="chunk-stream0-00417.m4s" type="video">
+<FileVariant size="2256445" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00417.m4s" type="audio">
+<FileVariant size="122041" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="6964" endTime="7065" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="6964" endTime="7064" />
+</Download>
+<Download startTime="6966" endTime="7066" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="6966" endTime="7066" />
+</Download>
+<Transcode startTime="6882" endTime="7028" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="6882" endTime="7028" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2083999" endOffset="2089999">
+<File name="chunk-stream0-00418.m4s" type="video">
+<FileVariant size="3623570" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00418.m4s" type="audio">
+<FileVariant size="182595" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="7078" endTime="7278" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="7078" endTime="7278" />
+</Download>
+<Download startTime="7087" endTime="7289" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="7087" endTime="7287" />
+</Download>
+<Transcode startTime="7028" endTime="7215" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="7028" endTime="7215" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2089999" endOffset="2093999">
+<File name="chunk-stream0-00419.m4s" type="video">
+<FileVariant size="2155995" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00419.m4s" type="audio">
+<FileVariant size="132719" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="7285" endTime="7385" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="7285" endTime="7385" />
+</Download>
+<Download startTime="7315" endTime="7417" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="7315" endTime="7416" />
+</Download>
+<Transcode startTime="7215" endTime="7347" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="7215" endTime="7347" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2093999" endOffset="2099999">
+<File name="chunk-stream0-00420.m4s" type="video">
+<FileVariant size="4451781" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00420.m4s" type="audio">
+<FileVariant size="189999" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="7389" endTime="7690" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="7389" endTime="7690" />
+</Download>
+<Download startTime="7434" endTime="7637" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="7434" endTime="7634" />
+</Download>
+<Transcode startTime="7347" endTime="7630" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="7347" endTime="7630" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2099999" endOffset="2103999">
+<File name="chunk-stream0-00421.m4s" type="video">
+<FileVariant size="1890502" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00421.m4s" type="audio">
+<FileVariant size="126506" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="7670" endTime="7873" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="7670" endTime="7870" />
+</Download>
+<Download startTime="7694" endTime="7895" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="7694" endTime="7895" />
+</Download>
+<Transcode startTime="7630" endTime="7795" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="7630" endTime="7795" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2103999" endOffset="2109999">
+<File name="chunk-stream0-00422.m4s" type="video">
+<FileVariant size="4372848" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00422.m4s" type="audio">
+<FileVariant size="190223" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="7891" endTime="8193" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="7891" endTime="8191" />
+</Download>
+<Download startTime="7899" endTime="8199" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="7899" endTime="8199" />
+</Download>
+<Transcode startTime="7795" endTime="8110" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="7795" endTime="8110" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2109999" endOffset="2113999">
+<File name="chunk-stream0-00423.m4s" type="video">
+<FileVariant size="2578450" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00423.m4s" type="audio">
+<FileVariant size="128541" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="8211" endTime="8411" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="8211" endTime="8411" />
+</Download>
+<Download startTime="8224" endTime="8425" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="8224" endTime="8424" />
+</Download>
+<Transcode startTime="8110" endTime="8366" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="8110" endTime="8366" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2113999" endOffset="2119999">
+<File name="chunk-stream0-00424.m4s" type="video">
+<FileVariant size="3592420" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00424.m4s" type="audio">
+<FileVariant size="194877" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="8415" endTime="8716" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="8415" endTime="8715" />
+</Download>
+<Download startTime="8444" endTime="8746" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="8444" endTime="8744" />
+</Download>
+<Transcode startTime="8366" endTime="8678" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="8366" endTime="8678" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2119999" endOffset="2123999">
+<File name="chunk-stream0-00425.m4s" type="video">
+<FileVariant size="2483996" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00425.m4s" type="audio">
+<FileVariant size="128812" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="8721" endTime="8922" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="8721" endTime="8922" />
+</Download>
+<Download startTime="8772" endTime="8974" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="8772" endTime="8972" />
+</Download>
+<Transcode startTime="8678" endTime="8914" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="8678" endTime="8914" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2123999" endOffset="2129999">
+<File name="chunk-stream0-00426.m4s" type="video">
+<FileVariant size="3779260" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00426.m4s" type="audio">
+<FileVariant size="192475" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="8925" endTime="9326" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="8925" endTime="9326" />
+</Download>
+<Download startTime="9006" endTime="9308" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="9006" endTime="9306" />
+</Download>
+<Transcode startTime="8914" endTime="9253" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="8914" endTime="9253" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2129999" endOffset="2133999">
+<File name="chunk-stream0-00427.m4s" type="video">
+<FileVariant size="2271848" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00427.m4s" type="audio">
+<FileVariant size="125945" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Download startTime="9344" endTime="9445" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="9344" endTime="9444" />
+</Download>
+<Download startTime="9344" endTime="9444" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1">
+<Pause type="segmentWait" startTime="9344" endTime="9444" />
+</Download>
+<Transcode startTime="9253" endTime="9439" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="9253" endTime="9439" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2133999" endOffset="2139999">
+<File name="chunk-stream0-00428.m4s" type="video">
+<FileVariant size="4093605" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00428.m4s" type="audio">
+<FileVariant size="190249" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="9439" endTime="9746" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="9439" endTime="9746" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="12972" endTime="12974" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="12979" endTime="12984" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2139999" endOffset="2143999">
+<File name="chunk-stream0-00429.m4s" type="video">
+<FileVariant size="2347724" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00429.m4s" type="audio">
+<FileVariant size="129155" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="9746" endTime="9991" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="9746" endTime="9991" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="19009" endTime="19010" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="19034" endTime="19036" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2143999" endOffset="2149999">
+<File name="chunk-stream0-00430.m4s" type="video">
+<FileVariant size="3829931" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00430.m4s" type="audio">
+<FileVariant size="190633" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="9991" endTime="10324" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="9991" endTime="10324" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="23032" endTime="23033" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="23069" endTime="23074" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2149999" endOffset="2153999">
+<File name="chunk-stream0-00431.m4s" type="video">
+<FileVariant size="2244959" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00431.m4s" type="audio">
+<FileVariant size="125582" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="10324" endTime="10518" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="10324" endTime="10518" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="29057" endTime="29058" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="29146" endTime="29150" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2153999" endOffset="2159999">
+<File name="chunk-stream0-00432.m4s" type="video">
+<FileVariant size="3873466" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00432.m4s" type="audio">
+<FileVariant size="193206" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="10518" endTime="10861" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="10518" endTime="10861" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="32708" endTime="32714" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="33074" endTime="33075" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2159999" endOffset="2163999">
+<File name="chunk-stream0-00433.m4s" type="video">
+<FileVariant size="2104781" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00433.m4s" type="audio">
+<FileVariant size="126744" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="10861" endTime="11092" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="10861" endTime="11092" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Download startTime="38778" endTime="38785" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2163999" endOffset="2169999">
+<File name="chunk-stream0-00434.m4s" type="video">
+<FileVariant size="3803287" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00434.m4s" type="audio">
+<FileVariant size="185796" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="11092" endTime="11367" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="11092" endTime="11367" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2169999" endOffset="2173999">
+<File name="chunk-stream0-00435.m4s" type="video">
+<FileVariant size="2722470" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00435.m4s" type="audio">
+<FileVariant size="125330" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="11367" endTime="11556" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="11367" endTime="11556" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2173999" endOffset="2179999">
+<File name="chunk-stream0-00436.m4s" type="video">
+<FileVariant size="3798999" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00436.m4s" type="audio">
+<FileVariant size="188124" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="11556" endTime="11868" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="11556" endTime="11868" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2179999" endOffset="2183999">
+<File name="chunk-stream0-00437.m4s" type="video">
+<FileVariant size="2614831" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00437.m4s" type="audio">
+<FileVariant size="124748" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="11868" endTime="12037" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="11868" endTime="12037" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2183999" endOffset="2189999">
+<File name="chunk-stream0-00438.m4s" type="video">
+<FileVariant size="3671838" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00438.m4s" type="audio">
+<FileVariant size="185187" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="12037" endTime="12208" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="12037" endTime="12208" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2189999" endOffset="2193999">
+<File name="chunk-stream0-00439.m4s" type="video">
+<FileVariant size="2587045" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00439.m4s" type="audio">
+<FileVariant size="121693" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="12208" endTime="12330" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="12208" endTime="12330" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2193999" endOffset="2199999">
+<File name="chunk-stream0-00440.m4s" type="video">
+<FileVariant size="3268570" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00440.m4s" type="audio">
+<FileVariant size="184411" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="12330" endTime="12540" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="12330" endTime="12540" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2199999" endOffset="2203999">
+<File name="chunk-stream0-00441.m4s" type="video">
+<FileVariant size="2833425" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00441.m4s" type="audio">
+<FileVariant size="121738" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="12540" endTime="13336" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="12540" endTime="13336" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="5583" startOffset="2203999" endOffset="2209583">
+<File name="chunk-stream0-00442.m4s" type="video">
+<FileVariant size="3660796" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00442.m4s" type="audio">
+<FileVariant size="170569" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="13336" endTime="13541" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="13336" endTime="13541" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4416" startOffset="2209583" endOffset="2213999">
+<File name="chunk-stream0-00443.m4s" type="video">
+<FileVariant size="2902740" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00443.m4s" type="audio">
+<FileVariant size="136699" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="13541" endTime="23431" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="13541" endTime="23431" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2213999" endOffset="2219999">
+<File name="chunk-stream0-00444.m4s" type="video">
+<FileVariant size="3395176" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00444.m4s" type="audio">
+<FileVariant size="186392" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="23431" endTime="23720" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="23431" endTime="23720" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="4000" startOffset="2219999" endOffset="2223999">
+<File name="chunk-stream0-00445.m4s" type="video">
+<FileVariant size="1997650" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00445.m4s" type="audio">
+<FileVariant size="122880" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="23720" endTime="33021" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="23720" endTime="33021" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+<Segment duration="6000" startOffset="2223999" endOffset="2229999">
+<File name="chunk-stream0-00446.m4s" type="video">
+<FileVariant size="3839175" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<File name="chunk-stream1-00446.m4s" type="audio">
+<FileVariant size="185941" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</File>
+<Timelines>
+<Transcode startTime="33021" endTime="33244" complete="1" fileType="video" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+<Transcode startTime="33021" endTime="33244" complete="1" fileType="audio" variant="a33516a1-687c-4622-82a2-0f4b936349b1" />
+</Timelines>
+</Segment>
+</SegmentList>
+<PlaybackReports>
+<Playback startTime="1821" endTime="2340" state="buffering" progress="0" />
+<Playback startTime="2340" endTime="4756" state="playing" progress="0" />
+<Playback startTime="4756" endTime="5159" state="buffering" progress="657000" />
+<Playback startTime="5159" endTime="6380" state="playing" progress="657000" />
+<Playback startTime="6380" endTime="6783" state="buffering" progress="2058000" />
+<Playback startTime="6783" endTime="11219" state="playing" progress="2058000" />
+<Playback startTime="11219" endTime="21231" state="playing" progress="2062000" />
+<Playback startTime="21231" endTime="31229" state="playing" progress="2072000" />
+<Playback startTime="31229" endTime="39042" state="playing" progress="2082000" />
+</PlaybackReports>
+<StateReports />
+<StateReports type="sloth">
+<State startTime="12580" endTime="13183" slothMode="1" />
+<State startTime="13183" endTime="13605" slothMode="0" />
+<State startTime="13605" endTime="23329" slothMode="1" />
+<State startTime="23329" endTime="23736" slothMode="0" />
+<State startTime="23736" endTime="32925" slothMode="1" />
+<State startTime="32925" endTime="33343" slothMode="0" />
+<State startTime="33343" endTime="39042" slothMode="1" />
+</StateReports>
+</SessionReport>

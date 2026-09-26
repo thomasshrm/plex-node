@@ -1,0 +1,88 @@
+{"level":"info","message":"Commit Tag: 69f73a6f1486fdb51b8ddae9a94a8dfb629f461c","timestamp":"2026-09-26T05:42:21.812Z"}
+{"level":"info","message":"Starting Seerr version 3.4.1","timestamp":"2026-09-26T05:42:22.096Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0001_migrate_hostname.js'...","timestamp":"2026-09-26T05:42:23.853Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0002_migrate_apitokens.js'...","timestamp":"2026-09-26T05:42:23.855Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0003_emby_media_server_type.js'...","timestamp":"2026-09-26T05:42:23.857Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0004_migrate_region_setting.js'...","timestamp":"2026-09-26T05:42:23.858Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0005_migrate_network_settings.js'...","timestamp":"2026-09-26T05:42:23.859Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0006_remove_lunasea.js'...","timestamp":"2026-09-26T05:42:23.860Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0007_migrate_arr_tags.js'...","timestamp":"2026-09-26T05:42:23.860Z"}
+{"label":"Settings Migrator","level":"debug","message":"Migration '0007_migrate_arr_tags.js' has been applied.","timestamp":"2026-09-26T05:42:23.868Z"}
+{"label":"Settings Migrator","level":"debug","message":"Checking migration '0008_migrate_blacklist_to_blocklist.js'...","timestamp":"2026-09-26T05:42:23.868Z"}
+{"label":"Settings Migrator","level":"debug","message":"Migration '0008_migrate_blacklist_to_blocklist.js' has been applied.","timestamp":"2026-09-26T05:42:23.869Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-09-26T05:42:23.877Z"}
+{"label":"Server","level":"info","message":"Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet","timestamp":"2026-09-26T05:42:23.880Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":0,"type":1},"timestamp":"2026-09-26T05:42:23.882Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":1,"type":2},"timestamp":"2026-09-26T05:42:23.896Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":2,"type":3},"timestamp":"2026-09-26T05:42:23.902Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":3,"type":4},"timestamp":"2026-09-26T05:42:23.908Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":4,"type":5},"timestamp":"2026-09-26T05:42:23.914Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":5,"type":6},"timestamp":"2026-09-26T05:42:23.920Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":6,"type":7},"timestamp":"2026-09-26T05:42:23.931Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":7,"type":8},"timestamp":"2026-09-26T05:42:23.942Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":8,"type":9},"timestamp":"2026-09-26T05:42:23.950Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":9,"type":10},"timestamp":"2026-09-26T05:42:23.957Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":10,"type":11},"timestamp":"2026-09-26T05:42:23.966Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":11,"type":12},"timestamp":"2026-09-26T05:42:23.972Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-09-26T05:42:24.062Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2026-09-26T05:42:59.844Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:43:00.003Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND plex","label":"API","level":"error","message":"Something went wrong testing Plex connection","timestamp":"2026-09-26T05:43:58.084Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:44:00.016Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND plex-server","label":"API","level":"error","message":"Something went wrong testing Plex connection","timestamp":"2026-09-26T05:44:10.697Z"}
+{"errorMessage":"","label":"API","level":"error","message":"Something went wrong testing Plex connection","timestamp":"2026-09-26T05:44:26.098Z"}
+{"errorMessage":"","label":"API","level":"error","message":"Something went wrong testing Plex connection","timestamp":"2026-09-26T05:44:45.130Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:45:00.009Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2026-09-26T05:45:00.018Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2026-09-26T05:45:00.021Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"16966aeb-0e92-4e87-95a2-fdbca1135c08","timestamp":"2026-09-26T05:45:00.022Z"}
+{"errorMessage":"","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2026-09-26T05:45:00.026Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"23536d5b-8245-4337-a06e-40b713e6ebef","timestamp":"2026-09-26T05:45:39.352Z"}
+{"label":"Plex Scan","level":"info","message":"Beginning to process library: Films","timestamp":"2026-09-26T05:45:39.372Z"}
+{"label":"Plex Scan","level":"info","message":"Beginning to process library: Séries TV","timestamp":"2026-09-26T05:45:39.377Z"}
+{"label":"Plex Scan","level":"info","message":"Full Scan Complete","timestamp":"2026-09-26T05:45:39.380Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"c672f147-c3a9-47b8-a06e-ac193dd36e28","timestamp":"2026-09-26T05:45:42.700Z"}
+{"label":"Plex Scan","level":"info","message":"Beginning to process library: Films","timestamp":"2026-09-26T05:45:42.718Z"}
+{"label":"Plex Scan","level":"info","message":"Beginning to process library: Séries TV","timestamp":"2026-09-26T05:45:42.722Z"}
+{"label":"Plex Scan","level":"info","message":"Full Scan Complete","timestamp":"2026-09-26T05:45:42.725Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:46:00.010Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:47:00.011Z"}
+{"label":"Media Request","level":"info","mediaId":1,"message":"Request has an override quality profile ID: 4","requestId":1,"timestamp":"2026-09-26T05:47:34.205Z"}
+{"label":"Notifications","level":"info","message":"Sending notification(s) for MEDIA_AUTO_APPROVED","subject":"UNABOMBER (2026)","timestamp":"2026-09-26T05:47:34.209Z"}
+{"label":"Media Request","level":"info","mediaId":1,"message":"Sent request to Radarr","requestId":1,"timestamp":"2026-09-26T05:47:34.211Z"}
+{"label":"Radarr","level":"info","message":"Radarr accepted request","timestamp":"2026-09-26T05:47:34.589Z"}
+{"label":"Radarr","level":"debug","message":"Radarr add details","movie":{"addOptions":{"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly","searchForMovie":true},"added":"2026-09-26T05:47:34Z","alternateTitles":[],"certification":"R","cleanTitle":"unabomber","digitalRelease":"2026-09-25T00:00:00Z","folderName":"/data/library/movies/UNABOMBER (2026)","genres":["Drama","Crime","Thriller"],"hasFile":false,"id":1,"images":[{"coverType":"poster","remoteUrl":"https://image.tmdb.org/t/p/original/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg","url":"/MediaCover/1/poster.jpg?h=0cf41e761b707087309c"},{"coverType":"fanart","remoteUrl":"https://image.tmdb.org/t/p/original/58D9nalUYW5L5K0guw7hcpsEJBH.jpg","url":"/MediaCover/1/fanart.jpg?h=b31a3c7ea6f82aaf1b94"}],"imdbId":"tt6933238","isAvailable":true,"keywords":["based on true story","biopic","bomb","fbi","mk ultra","terrorism"],"minimumAvailability":"released","monitored":true,"movieFileId":0,"originalLanguage":{"id":1,"name":"English"},"originalTitle":"UNABOMBER","overview":"Follow Ted Kaczynski's transformation from Harvard prodigy into the infamous Unabomber. Subjected to controversial psychological experiments by Professor Henry Murray, Kaczynski's troubled past resurfaces decades later when his manhunt, led by FBI agent Joanne Miller, brings to light the chilling consequences of ambition and isolation.","path":"/data/library/movies/UNABOMBER (2026)","popularity":7.2863,"qualityProfileId":4,"ratings":{"tmdb":{"type":"user","value":7.05,"votes":20}},"releaseDate":"2026-09-25T00:00:00Z","rootFolderPath":"/data/library/movies","runtime":101,"secondaryYearSourceId":0,"sizeOnDisk":0,"sortTitle":"unabomber","statistics":{"movieFileCount":0,"movieFileQualities":[],"releaseGroups":[],"sizeOnDisk":0},"status":"released","studio":"MRC","tags":[],"title":"UNABOMBER","titleSlug":"1492640","tmdbId":1492640,"website":"https://www.netflix.com/title/82010386","year":2026,"youTubeTrailerId":"B3tR6qQjbgI"},"timestamp":"2026-09-26T05:47:34.590Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:48:00.005Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2026-09-26T05:48:00.010Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:49:00.003Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:50:00.017Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2026-09-26T05:50:00.034Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"aaaadcae-8022-419b-a20b-41fc63923561","timestamp":"2026-09-26T05:50:00.037Z"}
+{"label":"Plex Scan","level":"info","message":"Beginning to process recently added for library: Films","timestamp":"2026-09-26T05:50:00.075Z"}
+{"label":"Plex Scan","level":"info","message":"Beginning to process recently added for library: Séries TV","timestamp":"2026-09-26T05:50:00.089Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-09-26T05:50:00.099Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:51:00.012Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2026-09-26T05:51:00.015Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:52:00.008Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:53:00.003Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:54:00.002Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2026-09-26T05:54:00.006Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:55:00.004Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2026-09-26T05:55:00.009Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"022650d6-6a29-45f5-9fd4-12907bf3ce62","timestamp":"2026-09-26T05:55:00.010Z"}
+{"label":"Plex Scan","lastScan":1790401800086,"level":"info","message":"Beginning to process recently added for library: Films","timestamp":"2026-09-26T05:55:00.017Z"}
+{"errorMessage":"[TMDB] Failed to get TV show using the external TVDB ID: No show returned from API for ID 355279","label":"Plex Scan","level":"error","message":"Failed to process Plex media","timestamp":"2026-09-26T05:55:00.057Z","title":"Florence Foresti: Boys boys boys"}
+{"label":"Notifications","level":"info","message":"Sending notification(s) for MEDIA_AVAILABLE","subject":"UNABOMBER (2026)","timestamp":"2026-09-26T05:55:00.075Z"}
+{"label":"Plex Scan","level":"info","message":"Media for Unabomber exists. Changes were detected and the title will be updated.","timestamp":"2026-09-26T05:55:00.080Z"}
+{"label":"Plex Scan","lastScan":1790401800098,"level":"info","message":"Beginning to process recently added for library: Séries TV","timestamp":"2026-09-26T05:55:04.084Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-09-26T05:55:04.094Z"}
+{"label":"Media Request","level":"info","mediaId":2,"message":"Request has an override quality profile ID: 4","requestId":2,"timestamp":"2026-09-26T05:55:11.921Z"}
+{"label":"Notifications","level":"info","message":"Sending notification(s) for MEDIA_AUTO_APPROVED","subject":"Forsaken (2026)","timestamp":"2026-09-26T05:55:11.929Z"}
+{"label":"Media Request","level":"info","mediaId":2,"message":"Sent request to Radarr","requestId":2,"timestamp":"2026-09-26T05:55:11.932Z"}
+{"label":"Radarr","level":"info","message":"Radarr accepted request","timestamp":"2026-09-26T05:55:12.142Z"}
+{"label":"Radarr","level":"debug","message":"Radarr add details","movie":{"addOptions":{"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly","searchForMovie":true},"added":"2026-09-26T05:55:12Z","alternateTitles":[],"cleanTitle":"forsaken","folderName":"/data/library/movies/Forsaken (2026)","genres":["Drama"],"hasFile":false,"id":2,"images":[{"coverType":"poster","remoteUrl":"https://image.tmdb.org/t/p/original/kfUKP5IgzgLQyQD1MDt99yq9Af0.jpg","url":"/MediaCover/2/poster.jpg?h=2c475f1b05230f4f3dcd"},{"coverType":"fanart","remoteUrl":"https://image.tmdb.org/t/p/original/37LuuL6AFYr6vj0EOTpev9pJMi3.jpg","url":"/MediaCover/2/fanart.jpg?h=c3eb7ca4044c1f9465f7"}],"imdbId":"tt40435390","inCinemas":"2026-05-13T00:00:00Z","isAvailable":true,"keywords":["based on real person","beheading","brutal murder","france","history teacher","islamic terrorism","real-life drama","school teacher","student threatens teacher","terrorist attack"],"minimumAvailability":"released","monitored":true,"movieFileId":0,"originalLanguage":{"id":2,"name":"French"},"originalTitle":"L'abandon","overview":"Everyone knows the name of Samuel Paty, but few people really know his story. On October 16, 2020, Samuel Paty, professor of History-Geography, was murdered at the end of his college. In the light of investigations and trials, this film looks back on his last eleven days, and the gear that led to his tragic death.","path":"/data/library/movies/Forsaken (2026)","popularity":6.1801,"qualityProfileId":4,"ratings":{"imdb":{"type":"user","value":7.6,"votes":555},"tmdb":{"type":"user","value":7.598,"votes":66},"trakt":{"type":"user","value":8.29412,"votes":34}},"releaseDate":"2026-08-11T00:00:00Z","rootFolderPath":"/data/library/movies","runtime":100,"secondaryYearSourceId":0,"sizeOnDisk":0,"sortTitle":"forsaken","statistics":{"movieFileCount":0,"movieFileQualities":[],"releaseGroups":[],"sizeOnDisk":0},"status":"released","studio":"Outside Films","tags":[],"title":"Forsaken","titleSlug":"1645368","tmdbId":1645368,"website":"","year":2026,"youTubeTrailerId":""},"timestamp":"2026-09-26T05:55:12.142Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:56:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:57:00.013Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2026-09-26T05:57:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:58:00.006Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2026-09-26T05:59:00.007Z"}

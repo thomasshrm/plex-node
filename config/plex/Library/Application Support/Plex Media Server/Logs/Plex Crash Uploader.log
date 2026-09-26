@@ -1,0 +1,4 @@
+Sep 26, 2026 07:12:44.198 [140652673932088] INFO - Crash Uploader - Platform: Linux ServerUUID: 6df3ed7548de3b00ee90a8ae9e1674cc38d68e78 UserId: thomasschirm97@gmail.com Version: 1.43.4.10903-e5521bd8c
+Sep 26, 2026 07:12:44.199 [140652673932088] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.43.4.10903-e5521bd8c
+Sep 26, 2026 07:12:44.199 [140652673932088] INFO - Post-processed minidump directory: /run/plex-temp
+Sep 26, 2026 07:12:44.198 [140652701943816] INFO - Crash Uploader - Processing Complete.

@@ -1,0 +1,88 @@
+2026-09-26T05:42:21.812Z [info]: Commit Tag: 69f73a6f1486fdb51b8ddae9a94a8dfb629f461c 
+2026-09-26T05:42:22.096Z [info]: Starting Seerr version 3.4.1 
+2026-09-26T05:42:23.853Z [debug][Settings Migrator]: Checking migration '0001_migrate_hostname.js'... 
+2026-09-26T05:42:23.855Z [debug][Settings Migrator]: Checking migration '0002_migrate_apitokens.js'... 
+2026-09-26T05:42:23.857Z [debug][Settings Migrator]: Checking migration '0003_emby_media_server_type.js'... 
+2026-09-26T05:42:23.858Z [debug][Settings Migrator]: Checking migration '0004_migrate_region_setting.js'... 
+2026-09-26T05:42:23.859Z [debug][Settings Migrator]: Checking migration '0005_migrate_network_settings.js'... 
+2026-09-26T05:42:23.860Z [debug][Settings Migrator]: Checking migration '0006_remove_lunasea.js'... 
+2026-09-26T05:42:23.860Z [debug][Settings Migrator]: Checking migration '0007_migrate_arr_tags.js'... 
+2026-09-26T05:42:23.868Z [debug][Settings Migrator]: Migration '0007_migrate_arr_tags.js' has been applied. 
+2026-09-26T05:42:23.868Z [debug][Settings Migrator]: Checking migration '0008_migrate_blacklist_to_blocklist.js'... 
+2026-09-26T05:42:23.869Z [debug][Settings Migrator]: Migration '0008_migrate_blacklist_to_blocklist.js' has been applied. 
+2026-09-26T05:42:23.877Z [info][Notifications]: Registered notification agents 
+2026-09-26T05:42:23.880Z [info][Server]: Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet 
+2026-09-26T05:42:23.882Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":1,"enabled":true,"isBuiltIn":true,"order":0}}
+2026-09-26T05:42:23.896Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":2,"enabled":true,"isBuiltIn":true,"order":1}}
+2026-09-26T05:42:23.902Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":3,"enabled":true,"isBuiltIn":true,"order":2}}
+2026-09-26T05:42:23.908Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":4,"enabled":true,"isBuiltIn":true,"order":3}}
+2026-09-26T05:42:23.914Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":5,"enabled":true,"isBuiltIn":true,"order":4}}
+2026-09-26T05:42:23.920Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":6,"enabled":true,"isBuiltIn":true,"order":5}}
+2026-09-26T05:42:23.931Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":7,"enabled":true,"isBuiltIn":true,"order":6}}
+2026-09-26T05:42:23.942Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":8,"enabled":true,"isBuiltIn":true,"order":7}}
+2026-09-26T05:42:23.950Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":9,"enabled":true,"isBuiltIn":true,"order":8}}
+2026-09-26T05:42:23.957Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":10,"enabled":true,"isBuiltIn":true,"order":9}}
+2026-09-26T05:42:23.966Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":11,"enabled":true,"isBuiltIn":true,"order":10}}
+2026-09-26T05:42:23.972Z [info][Discover Slider]: Creating built-in discovery slider {"slider":{"type":12,"enabled":true,"isBuiltIn":true,"order":11}}
+2026-09-26T05:42:24.062Z [info][Server]: Server ready on port 5055 
+2026-09-26T05:42:59.844Z [info][Jobs]: Scheduled jobs loaded 
+2026-09-26T05:43:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:43:58.084Z [error][API]: Something went wrong testing Plex connection {"errorMessage":"getaddrinfo ENOTFOUND plex"}
+2026-09-26T05:44:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:44:10.697Z [error][API]: Something went wrong testing Plex connection {"errorMessage":"getaddrinfo ENOTFOUND plex-server"}
+2026-09-26T05:44:26.098Z [error][API]: Something went wrong testing Plex connection {"errorMessage":""}
+2026-09-26T05:44:45.130Z [error][API]: Something went wrong testing Plex connection {"errorMessage":""}
+2026-09-26T05:45:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:45:00.018Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T05:45:00.021Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T05:45:00.022Z [info][Plex Scan]: Scan starting {"sessionId":"16966aeb-0e92-4e87-95a2-fdbca1135c08"}
+2026-09-26T05:45:00.026Z [error][Plex Scan]: Scan interrupted {"errorMessage":""}
+2026-09-26T05:45:39.352Z [info][Plex Scan]: Scan starting {"sessionId":"23536d5b-8245-4337-a06e-40b713e6ebef"}
+2026-09-26T05:45:39.372Z [info][Plex Scan]: Beginning to process library: Films 
+2026-09-26T05:45:39.377Z [info][Plex Scan]: Beginning to process library: Séries TV 
+2026-09-26T05:45:39.380Z [info][Plex Scan]: Full Scan Complete 
+2026-09-26T05:45:42.700Z [info][Plex Scan]: Scan starting {"sessionId":"c672f147-c3a9-47b8-a06e-ac193dd36e28"}
+2026-09-26T05:45:42.718Z [info][Plex Scan]: Beginning to process library: Films 
+2026-09-26T05:45:42.722Z [info][Plex Scan]: Beginning to process library: Séries TV 
+2026-09-26T05:45:42.725Z [info][Plex Scan]: Full Scan Complete 
+2026-09-26T05:46:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:47:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:47:34.205Z [info][Media Request]: Request has an override quality profile ID: 4 {"requestId":1,"mediaId":1}
+2026-09-26T05:47:34.209Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"UNABOMBER (2026)"}
+2026-09-26T05:47:34.211Z [info][Media Request]: Sent request to Radarr {"requestId":1,"mediaId":1}
+2026-09-26T05:47:34.589Z [info][Radarr]: Radarr accepted request 
+2026-09-26T05:47:34.590Z [debug][Radarr]: Radarr add details {"movie":{"title":"UNABOMBER","originalTitle":"UNABOMBER","originalLanguage":{"id":1,"name":"English"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"unabomber","sizeOnDisk":0,"status":"released","overview":"Follow Ted Kaczynski's transformation from Harvard prodigy into the infamous Unabomber. Subjected to controversial psychological experiments by Professor Henry Murray, Kaczynski's troubled past resurfaces decades later when his manhunt, led by FBI agent Joanne Miller, brings to light the chilling consequences of ambition and isolation.","digitalRelease":"2026-09-25T00:00:00Z","releaseDate":"2026-09-25T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/1/poster.jpg?h=0cf41e761b707087309c","remoteUrl":"https://image.tmdb.org/t/p/original/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg"},{"coverType":"fanart","url":"/MediaCover/1/fanart.jpg?h=b31a3c7ea6f82aaf1b94","remoteUrl":"https://image.tmdb.org/t/p/original/58D9nalUYW5L5K0guw7hcpsEJBH.jpg"}],"website":"https://www.netflix.com/title/82010386","year":2026,"youTubeTrailerId":"B3tR6qQjbgI","studio":"MRC","path":"/data/library/movies/UNABOMBER (2026)","qualityProfileId":4,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/data/library/movies/UNABOMBER (2026)","runtime":101,"cleanTitle":"unabomber","imdbId":"tt6933238","tmdbId":1492640,"titleSlug":"1492640","rootFolderPath":"/data/library/movies","certification":"R","genres":["Drama","Crime","Thriller"],"keywords":["based on true story","biopic","bomb","fbi","mk ultra","terrorism"],"tags":[],"added":"2026-09-26T05:47:34Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"tmdb":{"votes":20,"value":7.05,"type":"user"}},"popularity":7.2863,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[],"movieFileQualities":[]},"id":1}}
+2026-09-26T05:48:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:48:00.010Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T05:49:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:50:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:50:00.034Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T05:50:00.037Z [info][Plex Scan]: Scan starting {"sessionId":"aaaadcae-8022-419b-a20b-41fc63923561"}
+2026-09-26T05:50:00.075Z [info][Plex Scan]: Beginning to process recently added for library: Films {}
+2026-09-26T05:50:00.089Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {}
+2026-09-26T05:50:00.099Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T05:51:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:51:00.015Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T05:52:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:53:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:54:00.002Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:54:00.006Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T05:55:00.004Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:55:00.009Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T05:55:00.010Z [info][Plex Scan]: Scan starting {"sessionId":"022650d6-6a29-45f5-9fd4-12907bf3ce62"}
+2026-09-26T05:55:00.017Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790401800086}
+2026-09-26T05:55:00.057Z [error][Plex Scan]: Failed to process Plex media {"errorMessage":"[TMDB] Failed to get TV show using the external TVDB ID: No show returned from API for ID 355279","title":"Florence Foresti: Boys boys boys"}
+2026-09-26T05:55:00.075Z [info][Notifications]: Sending notification(s) for MEDIA_AVAILABLE {"subject":"UNABOMBER (2026)"}
+2026-09-26T05:55:00.080Z [info][Plex Scan]: Media for Unabomber exists. Changes were detected and the title will be updated. 
+2026-09-26T05:55:04.084Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790401800098}
+2026-09-26T05:55:04.094Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T05:55:11.921Z [info][Media Request]: Request has an override quality profile ID: 4 {"requestId":2,"mediaId":2}
+2026-09-26T05:55:11.929Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"Forsaken (2026)"}
+2026-09-26T05:55:11.932Z [info][Media Request]: Sent request to Radarr {"requestId":2,"mediaId":2}
+2026-09-26T05:55:12.142Z [info][Radarr]: Radarr accepted request 
+2026-09-26T05:55:12.142Z [debug][Radarr]: Radarr add details {"movie":{"title":"Forsaken","originalTitle":"L'abandon","originalLanguage":{"id":2,"name":"French"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"forsaken","sizeOnDisk":0,"status":"released","overview":"Everyone knows the name of Samuel Paty, but few people really know his story. On October 16, 2020, Samuel Paty, professor of History-Geography, was murdered at the end of his college. In the light of investigations and trials, this film looks back on his last eleven days, and the gear that led to his tragic death.","inCinemas":"2026-05-13T00:00:00Z","releaseDate":"2026-08-11T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/2/poster.jpg?h=2c475f1b05230f4f3dcd","remoteUrl":"https://image.tmdb.org/t/p/original/kfUKP5IgzgLQyQD1MDt99yq9Af0.jpg"},{"coverType":"fanart","url":"/MediaCover/2/fanart.jpg?h=c3eb7ca4044c1f9465f7","remoteUrl":"https://image.tmdb.org/t/p/original/37LuuL6AFYr6vj0EOTpev9pJMi3.jpg"}],"website":"","year":2026,"youTubeTrailerId":"","studio":"Outside Films","path":"/data/library/movies/Forsaken (2026)","qualityProfileId":4,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/data/library/movies/Forsaken (2026)","runtime":100,"cleanTitle":"forsaken","imdbId":"tt40435390","tmdbId":1645368,"titleSlug":"1645368","rootFolderPath":"/data/library/movies","genres":["Drama"],"keywords":["based on real person","beheading","brutal murder","france","history teacher","islamic terrorism","real-life drama","school teacher","student threatens teacher","terrorist attack"],"tags":[],"added":"2026-09-26T05:55:12Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":555,"value":7.6,"type":"user"},"tmdb":{"votes":66,"value":7.598,"type":"user"},"trakt":{"votes":34,"value":8.29412,"type":"user"}},"popularity":6.1801,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[],"movieFileQualities":[]},"id":2}}
+2026-09-26T05:56:00.014Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:57:00.013Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:57:00.025Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T05:58:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T05:59:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 

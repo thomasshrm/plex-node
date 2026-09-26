@@ -1,0 +1,102 @@
+(N) 2026-09-26T06:53:42 - qBittorrent v5.2.3 started. Process ID: 177
+(N) 2026-09-26T06:53:42 - Using config directory: /config/qBittorrent
+(N) 2026-09-26T06:53:42 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-09-26T06:53:42 - Peer ID: "-qB5230-"
+(I) 2026-09-26T06:53:42 - HTTP User-Agent: "qBittorrent/5.2.3"
+(I) 2026-09-26T06:53:42 - Distributed Hash Table (DHT) support: ON
+(I) 2026-09-26T06:53:42 - Local Peer Discovery support: ON
+(I) 2026-09-26T06:53:42 - Peer Exchange (PeX) support: ON
+(I) 2026-09-26T06:53:42 - Anonymous mode: OFF
+(I) 2026-09-26T06:53:42 - Encryption support: ON
+(I) 2026-09-26T06:53:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-09-26T06:53:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-09-26T06:53:42 - Successfully listening on IP. IP: "172.19.0.2". Port: "TCP/6881"
+(I) 2026-09-26T06:53:42 - Successfully listening on IP. IP: "172.19.0.2". Port: "UTP/6881"
+(I) 2026-09-26T06:53:42 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-09-26T06:53:42 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2026-09-26T06:53:42 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2026-09-26T06:53:42 - Using built-in WebUI.
+(W) 2026-09-26T06:53:42 - Couldn't load WebUI translation for selected locale (C).
+(N) 2026-09-26T06:53:42 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-09-26T06:53:42 - Detected external IP. IP: "86.104.20.66"
+(I) 2026-09-26T06:53:42 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Sep 1 03:32:45 2026.
+(I) 2026-09-26T06:53:42 - Successfully updated IP geolocation database.
+(W) 2026-09-26T06:54:15 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:172.19.0.1, username: admin
+(W) 2026-09-26T06:54:26 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:172.19.0.1, username: admin
+(W) 2026-09-26T06:54:39 - WebAPI login failure. Reason: invalid credentials, attempt count: 3, IP: ::ffff:172.19.0.1, username: admin
+(N) 2026-09-26T06:54:50 - qBittorrent termination initiated
+(N) 2026-09-26T06:54:50 - Saving resume data completed.
+(N) 2026-09-26T06:54:50 - BitTorrent session successfully finished.
+(N) 2026-09-26T06:54:50 - qBittorrent is now ready to exit
+(N) 2026-09-26T06:55:12 - qBittorrent v5.2.3 started. Process ID: 175
+(N) 2026-09-26T06:55:12 - Using config directory: /config/qBittorrent
+(N) 2026-09-26T06:55:12 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-09-26T06:55:12 - Peer ID: "-qB5230-"
+(I) 2026-09-26T06:55:12 - HTTP User-Agent: "qBittorrent/5.2.3"
+(I) 2026-09-26T06:55:12 - Distributed Hash Table (DHT) support: ON
+(I) 2026-09-26T06:55:12 - Local Peer Discovery support: ON
+(I) 2026-09-26T06:55:12 - Peer Exchange (PeX) support: ON
+(I) 2026-09-26T06:55:12 - Anonymous mode: OFF
+(I) 2026-09-26T06:55:12 - Encryption support: ON
+(I) 2026-09-26T06:55:12 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-09-26T06:55:12 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-09-26T06:55:12 - Successfully listening on IP. IP: "172.19.0.2". Port: "TCP/6881"
+(I) 2026-09-26T06:55:12 - Successfully listening on IP. IP: "172.19.0.2". Port: "UTP/6881"
+(I) 2026-09-26T06:55:12 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-09-26T06:55:12 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2026-09-26T06:55:12 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Sep 1 03:32:45 2026.
+(N) 2026-09-26T06:55:12 - Using built-in WebUI.
+(W) 2026-09-26T06:55:12 - Couldn't load WebUI translation for selected locale (C).
+(N) 2026-09-26T06:55:12 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-09-26T06:55:12 - Detected external IP. IP: "86.104.20.66"
+(N) 2026-09-26T06:55:30 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-09-26T07:08:48 - qBittorrent termination initiated
+(N) 2026-09-26T07:08:48 - Saving resume data completed.
+(N) 2026-09-26T07:08:48 - BitTorrent session successfully finished.
+(N) 2026-09-26T07:08:48 - qBittorrent is now ready to exit
+(N) 2026-09-26T07:12:42 - qBittorrent v5.2.3 started. Process ID: 174
+(N) 2026-09-26T07:12:42 - Using config directory: /config/qBittorrent
+(N) 2026-09-26T07:12:42 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2026-09-26T07:12:42 - Peer ID: "-qB5230-"
+(I) 2026-09-26T07:12:42 - HTTP User-Agent: "qBittorrent/5.2.3"
+(I) 2026-09-26T07:12:42 - Distributed Hash Table (DHT) support: ON
+(I) 2026-09-26T07:12:42 - Local Peer Discovery support: ON
+(I) 2026-09-26T07:12:42 - Peer Exchange (PeX) support: ON
+(I) 2026-09-26T07:12:42 - Anonymous mode: OFF
+(I) 2026-09-26T07:12:42 - Encryption support: ON
+(I) 2026-09-26T07:12:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2026-09-26T07:12:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2026-09-26T07:12:42 - Successfully listening on IP. IP: "172.19.0.4". Port: "TCP/6881"
+(I) 2026-09-26T07:12:42 - Successfully listening on IP. IP: "172.19.0.4". Port: "UTP/6881"
+(I) 2026-09-26T07:12:42 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2026-09-26T07:12:42 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(I) 2026-09-26T07:12:42 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Sep 1 03:32:45 2026.
+(N) 2026-09-26T07:12:42 - Using built-in WebUI.
+(W) 2026-09-26T07:12:42 - Couldn't load WebUI translation for selected locale (C).
+(N) 2026-09-26T07:12:42 - WebUI: Now listening on IP: *, port: 8080
+(I) 2026-09-26T07:12:42 - Detected external IP. IP: "86.104.20.66"
+(W) 2026-09-26T07:13:00 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:172.19.0.1, username: admin
+(N) 2026-09-26T07:13:22 - WebAPI login success. IP: ::ffff:172.19.0.1
+(N) 2026-09-26T07:13:46 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2026-09-26T07:18:12 - WebAPI login success. IP: ::ffff:172.19.0.3
+(N) 2026-09-26T07:18:12 - WebAPI login success. IP: ::ffff:172.19.0.3
+(N) 2026-09-26T07:18:12 - WebAPI login success. IP: ::ffff:172.19.0.3
+(N) 2026-09-26T07:18:13 - WebAPI login success. IP: ::ffff:172.19.0.3
+(N) 2026-09-26T07:18:13 - WebAPI login success. IP: ::ffff:172.19.0.3
+(N) 2026-09-26T07:19:53 - WebAPI login success. IP: ::ffff:172.19.0.5
+(N) 2026-09-26T07:19:53 - WebAPI login success. IP: ::ffff:172.19.0.5
+(N) 2026-09-26T07:19:53 - WebAPI login success. IP: ::ffff:172.19.0.5
+(N) 2026-09-26T07:19:54 - WebAPI login success. IP: ::ffff:172.19.0.5
+(N) 2026-09-26T07:19:54 - WebAPI login success. IP: ::ffff:172.19.0.5
+(N) 2026-09-26T07:29:18 - WebAPI login success. IP: ::ffff:172.19.0.3
+(N) 2026-09-26T07:31:19 - WebAPI login success. IP: ::ffff:172.19.0.5
+(N) 2026-09-26T07:33:52 - Added new torrent. Torrent: "Florence.Foresti.Boys.Boys.Boys.2024.FRENCH.AD.1080p.AMZN.WEB.H264-BYOR.mkv"
+(N) 2026-09-26T07:36:57 - Torrent download finished. Torrent: "Florence.Foresti.Boys.Boys.Boys.2024.FRENCH.AD.1080p.AMZN.WEB.H264-BYOR.mkv"
+(N) 2026-09-26T07:39:48 - WebAPI login success. IP: ::ffff:172.19.0.3
+(N) 2026-09-26T07:41:19 - WebAPI login success. IP: ::ffff:172.19.0.5
+(N) 2026-09-26T07:47:38 - Added new torrent. Torrent: "Unabomber.2026.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv"
+(N) 2026-09-26T07:50:09 - Torrent download finished. Torrent: "Unabomber.2026.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv"
+(N) 2026-09-26T07:50:18 - WebAPI login success. IP: ::ffff:172.19.0.3
+(N) 2026-09-26T07:51:49 - WebAPI login success. IP: ::ffff:172.19.0.5
+(N) 2026-09-26T07:55:16 - Added new torrent. Torrent: "L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4"
+(N) 2026-09-26T07:56:42 - Torrent download finished. Torrent: "L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4"

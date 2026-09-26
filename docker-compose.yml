@@ -1,0 +1,102 @@
+services:
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex-node-plex
+    network_mode: host
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${TZ}
+      VERSION: docker
+    volumes:
+      - ${CONFIG_ROOT}/plex:/config
+      - ${DATA_ROOT}:/data
+    devices:
+      - /dev/dri:/dev/dri
+    restart: unless-stopped
+  
+  qbittorrent:
+    image: lscr.io/linuxserver/qbittorrent:latest
+    container_name: plex-node-qbittorrent
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${TZ}
+      WEBUI_PORT: ${QBIT_WEBUI_PORT}
+      TORRENTING_PORT: ${QBIT_TORRENT_PORT}
+      UMASK: "002"
+    volumes:
+      - ${CONFIG_ROOT}/qbittorrent:/config
+      - ${DATA_ROOT}:/data
+    ports:
+      - "${QBIT_WEBUI_PORT}:${QBIT_WEBUI_PORT}"
+      - "${QBIT_TORRENT_PORT}:${QBIT_TORRENT_PORT}"
+      - "${QBIT_TORRENT_PORT}:${QBIT_TORRENT_PORT}/udp"
+    stop_grace_period: 30s
+    restart: unless-stopped
+
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: plex-node-radarr
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${TZ}
+      UMASK: "002"
+    volumes:
+      - ${CONFIG_ROOT}/radarr:/config
+      - ${DATA_ROOT}:/data
+    ports:
+      - "${RADARR_PORT}:7878"
+    restart: unless-stopped
+
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: plex-node-sonarr
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${TZ}
+      UMASK: "002"
+    volumes:
+      - ${CONFIG_ROOT}/sonarr:/config
+      - ${DATA_ROOT}:/data
+    ports:
+      - "${SONARR_PORT}:8989"
+    restart: unless-stopped
+
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: plex-node-prowlarr
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${TZ}
+    volumes:
+      - ${CONFIG_ROOT}/prowlarr:/config
+    ports:
+      - "${PROWLARR_PORT}:9696"
+    restart: unless-stopped
+
+  seerr:
+    image: ghcr.io/seerr-team/seerr:latest
+    container_name: plex-node-seerr
+    init: true
+    environment:
+      TZ: ${TZ}
+      PORT: ${SEERR_PORT}
+    ports:
+      - "${SEERR_PORT}:${SEERR_PORT}"
+    volumes:
+      - ${CONFIG_ROOT}/seerr:/app/config
+    healthcheck:
+      test: wget -no-verbose --tries=1 --spider http://localhost:5055/api/v1/settings/public || exit 1
+      start_period: 20s
+      timeout: 3s 
+      interval: 15s
+      retries: 3
+    security_opt:
+      - no-new-privileges
+    cap_drop:
+      - ALL
+    restart: unless-stopped

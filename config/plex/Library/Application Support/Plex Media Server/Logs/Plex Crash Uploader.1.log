@@ -1,0 +1,5 @@
+Sep 26, 2026 07:08:48.643 [139887291550520] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1790398512 Duration: 816 UserId: thomasschirm97@gmail.com Version: 1.43.4.10903-e5521bd8c
+Sep 26, 2026 07:08:48.643 [139887319562248] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Sep 26, 2026 07:08:48.727 [139887291308856] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.1s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Sep 26, 2026 07:08:48.727 [139887319562248] INFO - Successfully reported session health
+Sep 26, 2026 07:08:48.727 [139887319562248] INFO - Crash Uploader - Processing Complete.
