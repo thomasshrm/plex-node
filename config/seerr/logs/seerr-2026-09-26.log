@@ -86,3 +86,199 @@
 2026-09-26T05:57:00.025Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
 2026-09-26T05:58:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
 2026-09-26T05:59:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:00:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:00:00.007Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:00:00.009Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:00:00.009Z [info][Plex Scan]: Scan starting {"sessionId":"929ba083-45e6-45a9-9c0f-f6533e869d30"}
+2026-09-26T06:00:00.014Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790402104081}
+2026-09-26T06:00:00.019Z [debug][Plex Scan]: GUIDs are cached. Skipping metadata request. {"mediaIds":{"imdbId":"tt6933238","tmdbId":1492640,"tvdbId":99169},"title":"Unabomber"}
+2026-09-26T06:00:00.019Z [error][Plex Scan]: Failed to process Plex media {"errorMessage":"Unable to find TMDB ID","title":"Forsaken"}
+2026-09-26T06:00:00.034Z [debug][Plex Scan]: Title already exists and no changes detected for Unabomber 
+2026-09-26T06:00:00.174Z [error][Plex Scan]: Failed to process Plex media {"errorMessage":"[TMDB] Failed to get TV show using the external TVDB ID: No show returned from API for ID 355279","title":"Florence Foresti: Boys boys boys"}
+2026-09-26T06:00:04.178Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790402104093}
+2026-09-26T06:00:04.189Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:01:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:02:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:03:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:03:00.009Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:04:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:05:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:05:00.010Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:05:00.010Z [info][Plex Scan]: Scan starting {"sessionId":"e746174a-8fa1-41f4-ba8d-0d5667cbbe7c"}
+2026-09-26T06:05:00.015Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790402404176}
+2026-09-26T06:05:00.020Z [debug][Plex Scan]: GUIDs are cached. Skipping metadata request. {"mediaIds":{"imdbId":"tt6933238","tmdbId":1492640,"tvdbId":99169},"title":"Unabomber"}
+2026-09-26T06:05:00.021Z [error][Plex Scan]: Failed to process Plex media {"errorMessage":"Unable to find TMDB ID","title":"Forsaken"}
+2026-09-26T06:05:00.026Z [error][Plex Scan]: Failed to process Plex media {"errorMessage":"[TMDB] Failed to get TV show using the external TVDB ID: No show returned from API for ID 355279","title":"Florence Foresti: Boys boys boys"}
+2026-09-26T06:05:00.034Z [debug][Plex Scan]: Title already exists and no changes detected for Unabomber 
+2026-09-26T06:05:04.038Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790402404188}
+2026-09-26T06:05:04.049Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:06:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:06:00.012Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:07:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:08:00.004Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:09:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:09:00.013Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:10:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:10:00.009Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:10:00.009Z [info][Plex Scan]: Scan starting {"sessionId":"2c5c9f3a-2c6b-4028-97fe-b41cd09d8b10"}
+2026-09-26T06:10:00.014Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790402704036}
+2026-09-26T06:10:00.018Z [error][Plex Scan]: Failed to process Plex media {"errorMessage":"Unable to find TMDB ID","title":"Forsaken"}
+2026-09-26T06:10:04.020Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790402704048}
+2026-09-26T06:10:04.031Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:11:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:12:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:12:00.023Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:13:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:14:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:15:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:15:00.011Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:15:00.014Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:15:00.014Z [info][Plex Scan]: Scan starting {"sessionId":"136f8987-50c9-400a-8fe0-ae4ca57e60eb"}
+2026-09-26T06:15:00.022Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790403004018}
+2026-09-26T06:15:00.027Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790403004030}
+2026-09-26T06:15:00.032Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:16:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:17:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:18:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:18:00.009Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:19:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:20:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:20:00.013Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:20:00.014Z [info][Plex Scan]: Scan starting {"sessionId":"42b0d59b-417a-4cdc-860c-1b78a8a185ac"}
+2026-09-26T06:20:00.028Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790403300027}
+2026-09-26T06:20:00.034Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790403300031}
+2026-09-26T06:20:00.041Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:21:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:21:00.017Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:22:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:23:00.013Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:24:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:24:00.018Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:24:35.593Z [info][Notifications]: Sending notification(s) for MEDIA_AVAILABLE {"subject":"L'abandon (2026)"}
+2026-09-26T06:24:53.787Z [info][Media Request]: Request has an override quality profile ID: 4 {"requestId":3,"mediaId":3}
+2026-09-26T06:24:53.793Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"Pas de vagues (2024)"}
+2026-09-26T06:24:53.795Z [info][Media Request]: Sent request to Radarr {"requestId":3,"mediaId":3}
+2026-09-26T06:24:53.989Z [info][Radarr]: Radarr accepted request 
+2026-09-26T06:24:53.989Z [debug][Radarr]: Radarr add details {"movie":{"title":"The Good Teacher","originalTitle":"Pas de vagues","originalLanguage":{"id":2,"name":"French"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"good teacher","sizeOnDisk":0,"status":"released","overview":"Julien, a young teacher, is wrongfully accused of sexual misconduct by a teenage girl from his class. As he faces mounting pressures from the girl’s older brother and her classmates, the situation spirals out of control. Allegations spread, the entire school is thrown into turmoil, and the teacher has to fight to clear his name.","inCinemas":"2024-03-27T00:00:00Z","physicalRelease":"2025-07-09T00:00:00Z","releaseDate":"2025-07-09T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/3/poster.jpg?h=4b811fb4f4e0db10101b","remoteUrl":"https://image.tmdb.org/t/p/original/haqfplSRnIwO8ha5tKOxwnG1sxP.jpg"},{"coverType":"fanart","url":"/MediaCover/3/fanart.jpg?h=4e685c6a832d1484cdc9","remoteUrl":"https://image.tmdb.org/t/p/original/1SO3YnpeZB4kSBpv4IgT88dBiE8.jpg"}],"website":"","year":2024,"youTubeTrailerId":"5wa67QkhH1s","studio":"Kazak Productions","path":"/data/library/movies/The Good Teacher (2024)","qualityProfileId":4,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/data/library/movies/The Good Teacher (2024)","runtime":92,"cleanTitle":"thegoodteacher","imdbId":"tt26060006","tmdbId":1000862,"titleSlug":"1000862","rootFolderPath":"/data/library/movies","genres":["Drama","Thriller"],"keywords":["based on true story","classroom","false accusations","france","homophobia","homophobic attack","male teacher","school teacher","sexual harassment","teacher","teachers and students","workplace harassment"],"tags":[],"added":"2026-09-26T06:24:53Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":2582,"value":6.6,"type":"user"},"tmdb":{"votes":322,"value":6.363,"type":"user"},"trakt":{"votes":302,"value":6.49669,"type":"user"}},"popularity":1.8287,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[],"movieFileQualities":[]},"id":3}}
+2026-09-26T06:25:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:25:00.016Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:25:00.017Z [info][Plex Scan]: Scan starting {"sessionId":"264d1a67-40d1-409b-bc25-9e8226022a3c"}
+2026-09-26T06:25:00.030Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790403600033}
+2026-09-26T06:25:00.037Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790403600037}
+2026-09-26T06:25:00.044Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:26:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:26:47.407Z [info][Media Request]: Request has an override quality profile ID: 4 {"requestId":4,"mediaId":4}
+2026-09-26T06:26:47.415Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"El Camino : Un film \"Breaking Bad\" (2019)"}
+2026-09-26T06:26:47.417Z [info][Media Request]: Sent request to Radarr {"requestId":4,"mediaId":4}
+2026-09-26T06:26:47.668Z [info][Radarr]: Radarr accepted request 
+2026-09-26T06:26:47.668Z [debug][Radarr]: Radarr add details {"movie":{"title":"El Camino: A Breaking Bad Movie","originalTitle":"El Camino: A Breaking Bad Movie","originalLanguage":{"id":1,"name":"English"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"el camino a breaking bad movie","sizeOnDisk":0,"status":"released","overview":"In the wake of his dramatic escape from captivity, Jesse Pinkman must come to terms with his past in order to forge some kind of future.","inCinemas":"2019-10-11T00:00:00Z","physicalRelease":"2020-10-13T00:00:00Z","digitalRelease":"2019-10-10T00:00:00Z","releaseDate":"2019-10-10T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/4/poster.jpg?h=f842651d551cec84ddc6","remoteUrl":"https://image.tmdb.org/t/p/original/ePXuKdXZuJx8hHMNr2yM4jY2L7Z.jpg"},{"coverType":"fanart","url":"/MediaCover/4/fanart.jpg?h=19f742467798ee057139","remoteUrl":"https://image.tmdb.org/t/p/original/uLXK1LQM28XovWHPao3ViTeggXA.jpg"}],"website":"https://www.netflix.com/title/81078819","year":2019,"youTubeTrailerId":"rklOejPnD3Y","studio":"Sony Pictures Television","path":"/data/library/movies/El Camino - A Breaking Bad Movie (2019)","qualityProfileId":4,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/data/library/movies/El Camino - A Breaking Bad Movie (2019)","runtime":123,"cleanTitle":"elcaminobreakingbadmovie","imdbId":"tt9243946","tmdbId":559969,"titleSlug":"559969","rootFolderPath":"/data/library/movies","certification":"R","genres":["Crime","Drama","Thriller"],"keywords":["albuquerque, new mexico","based on tv series","crystal meth","drugs","meth lab","methamphetamine","new mexico"],"tags":[],"added":"2026-09-26T06:26:47Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":352322,"value":7.3,"type":"user"},"tmdb":{"votes":5848,"value":7.1,"type":"user"},"metacritic":{"votes":0,"value":72,"type":"user"},"rottenTomatoes":{"votes":0,"value":92,"type":"user"},"trakt":{"votes":18521,"value":7.43362,"type":"user"}},"popularity":11.2961,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[],"movieFileQualities":[]},"id":4}}
+2026-09-26T06:27:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:27:00.019Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:27:46.553Z [info][Media Request]: Request has an override quality profile ID: 6 {"requestId":5,"mediaId":5}
+2026-09-26T06:27:46.560Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"El Camino : Un film \"Breaking Bad\" (2019)"}
+2026-09-26T06:27:46.561Z [info][Media Request]: Sent request to Radarr {"requestId":5,"mediaId":5}
+2026-09-26T06:27:46.602Z [info][Radarr]: Movie is already monitored in Radarr. {"movieId":4,"movieTitle":"El Camino: A Breaking Bad Movie"}
+2026-09-26T06:27:46.603Z [info][Radarr]: Triggering search for existing monitored movie without file {"movieId":4,"movieTitle":"El Camino: A Breaking Bad Movie"}
+2026-09-26T06:27:46.603Z [info][Radarr API]: Executing movie search command {"movieId":4}
+2026-09-26T06:28:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:29:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:29:16.839Z [info][Media Request]: Request has an override quality profile ID: 6 {"requestId":6,"mediaId":6}
+2026-09-26T06:29:16.847Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"Resident Evil (2026)"}
+2026-09-26T06:29:16.849Z [info][Media Request]: Sent request to Radarr {"requestId":6,"mediaId":6}
+2026-09-26T06:29:17.053Z [info][Radarr]: Radarr accepted request 
+2026-09-26T06:29:17.054Z [debug][Radarr]: Radarr add details {"movie":{"title":"Resident Evil","originalTitle":"Resident Evil","originalLanguage":{"id":1,"name":"English"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"resident evil","sizeOnDisk":0,"status":"inCinemas","overview":"Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.","inCinemas":"2026-09-16T00:00:00Z","releaseDate":"2026-12-15T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/5/poster.jpg?h=01f3e4e050a42af80e21","remoteUrl":"https://image.tmdb.org/t/p/original/oRHuTPN8f5POBWKMM7zWizqhN8E.jpg"},{"coverType":"fanart","url":"/MediaCover/5/fanart.jpg?h=6af07aa558de4054b240","remoteUrl":"https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg"}],"website":"https://residentevil.movie","year":2026,"youTubeTrailerId":"mNd1gb19A-c","studio":"Constantin Film","path":"/data/library/movies/Resident Evil (2026)","qualityProfileId":6,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":false,"folderName":"/data/library/movies/Resident Evil (2026)","runtime":95,"cleanTitle":"residentevil","imdbId":"tt35538033","tmdbId":1423191,"titleSlug":"1423191","rootFolderPath":"/data/library/movies","certification":"R","genres":["Horror","Science Fiction","Adventure"],"keywords":["based on video game","body horror","courier service","outbreak","reboot","survival","survival horror","zombie","zombie apocalypse","zombie horror"],"tags":[],"added":"2026-09-26T06:29:17Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":33347,"value":7.7,"type":"user"},"tmdb":{"votes":455,"value":7.3,"type":"user"}},"popularity":513.2853,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[],"movieFileQualities":[]},"id":5}}
+2026-09-26T06:30:00.002Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:30:00.003Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:30:00.006Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:30:00.006Z [info][Plex Scan]: Scan starting {"sessionId":"cc6ebc21-7e90-4848-9507-0141825a195d"}
+2026-09-26T06:30:00.011Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790403900036}
+2026-09-26T06:30:00.039Z [info][Notifications]: Sending notification(s) for MEDIA_AVAILABLE {"subject":"Pas de vagues (2024)"}
+2026-09-26T06:30:00.050Z [info][Plex Scan]: Media for Pas de vagues exists. Changes were detected and the title will be updated. 
+2026-09-26T06:30:04.054Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790403900042}
+2026-09-26T06:30:04.064Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:31:00.004Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:31:22.143Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"L'Odyssée (2026)"}
+2026-09-26T06:31:22.144Z [info][Media Request]: Sent request to Radarr {"requestId":7,"mediaId":7}
+2026-09-26T06:31:22.229Z [info][Radarr]: Radarr accepted request 
+2026-09-26T06:31:22.229Z [debug][Radarr]: Radarr add details {"movie":{"title":"The Odyssey","originalTitle":"The Odyssey","originalLanguage":{"id":1,"name":"English"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"odyssey","sizeOnDisk":0,"status":"inCinemas","overview":"Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.","inCinemas":"2026-07-15T00:00:00Z","physicalRelease":"2026-11-17T00:00:00Z","digitalRelease":"2026-11-15T00:00:00Z","releaseDate":"2026-11-15T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/6/poster.jpg?h=3f0aaf34044123d571bc","remoteUrl":"https://image.tmdb.org/t/p/original/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg"},{"coverType":"fanart","url":"/MediaCover/6/fanart.jpg?h=5e654e820d1f2d8c4de6","remoteUrl":"https://image.tmdb.org/t/p/original/RMXG8myu1aGlNUsRjtxzmpdMK0.jpg"}],"website":"https://www.universalpictures.com/movies/the-odyssey","year":2026,"youTubeTrailerId":"AyIZ9tiiN8I","studio":"Universal Pictures","path":"/data/library/movies/The Odyssey (2026)","qualityProfileId":1,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":false,"folderName":"/data/library/movies/The Odyssey (2026)","runtime":173,"cleanTitle":"theodyssey","imdbId":"tt33764258","tmdbId":1368337,"titleSlug":"1368337","rootFolderPath":"/data/library/movies","certification":"R","genres":["Adventure","Action","Fantasy"],"keywords":["ancient","ancient world","based on song, poem or rhyme","bronze age","epic fantasy","greek history","greek mythology","historical fiction","mediterranean sea","mythical","odyssey","peplum","period drama","ship","sword and sandal","trojan horse","trojan war","voyage"],"tags":[],"added":"2026-09-26T06:31:22Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":502732,"value":8.4,"type":"user"},"tmdb":{"votes":3903,"value":8.017,"type":"user"},"metacritic":{"votes":0,"value":88,"type":"user"},"rottenTomatoes":{"votes":0,"value":93,"type":"user"},"trakt":{"votes":116,"value":5.75,"type":"user"}},"popularity":333.221,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[],"movieFileQualities":[]},"id":6}}
+2026-09-26T06:32:00.004Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:32:30.223Z [debug][API]: Something went wrong retrieving the movie genre slider {"errorMessage":"[TMDB] Failed to fetch discover movies: "}
+2026-09-26T06:32:30.264Z [debug][API]: Something went wrong retrieving the series genre slider {"errorMessage":"[TMDB] Failed to fetch discover TV: "}
+2026-09-26T06:32:43.888Z [info][Media Request]: Request has an override quality profile ID: 6 {"requestId":8,"mediaId":8}
+2026-09-26T06:32:43.893Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"Vaiana, la légende du bout du monde (2026)"}
+2026-09-26T06:32:43.894Z [info][Media Request]: Sent request to Radarr {"requestId":8,"mediaId":8}
+2026-09-26T06:32:44.031Z [info][Radarr]: Radarr accepted request 
+2026-09-26T06:32:44.032Z [debug][Radarr]: Radarr add details {"movie":{"title":"Moana","originalTitle":"Moana","originalLanguage":{"id":1,"name":"English"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"moana","sizeOnDisk":0,"status":"released","overview":"Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.","inCinemas":"2026-07-08T00:00:00Z","physicalRelease":"2026-10-06T00:00:00Z","digitalRelease":"2026-09-08T00:00:00Z","releaseDate":"2026-09-08T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/7/poster.jpg?h=308b7f9b81d534da3a76","remoteUrl":"https://image.tmdb.org/t/p/original/gaet1xQ2nxrG0V1Ep9T20ZMNEIC.jpg"},{"coverType":"fanart","url":"/MediaCover/7/fanart.jpg?h=ce8ef03b32787cddf560","remoteUrl":"https://image.tmdb.org/t/p/original/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg"}],"website":"https://movies.disney.com/moana-2026","year":2026,"youTubeTrailerId":"EEz5xbzYPKI","studio":"Walt Disney Pictures","path":"/data/library/movies/Moana (2026)","qualityProfileId":6,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/data/library/movies/Moana (2026)","runtime":115,"cleanTitle":"moana","imdbId":"tt27419466","tmdbId":1108427,"titleSlug":"1108427","rootFolderPath":"/data/library/movies","certification":"PG","genres":["Family","Fantasy","Comedy","Adventure"],"keywords":["animal sidekick","based on movie","curse","demigod","explorer","female explorer","friendship","giant crab","leaving one's family","live action remake","musical","ocean","polynesia","remake","sailboat","sea","sea adventure","seafarer"],"tags":[],"added":"2026-09-26T06:32:43Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":17570,"value":5.8,"type":"user"},"tmdb":{"votes":758,"value":7.401,"type":"user"},"metacritic":{"votes":0,"value":42,"type":"user"},"rottenTomatoes":{"votes":0,"value":33,"type":"user"},"trakt":{"votes":453,"value":7.51656,"type":"user"}},"popularity":174.2799,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[],"movieFileQualities":[]},"id":7}}
+2026-09-26T06:33:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:33:00.008Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:34:00.004Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:35:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:35:00.014Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:35:00.015Z [info][Plex Scan]: Scan starting {"sessionId":"156127c8-4cc1-4d20-ba62-d3eea62144b5"}
+2026-09-26T06:35:00.032Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790404204051}
+2026-09-26T06:35:00.047Z [debug][Plex Scan]: GUIDs are cached. Skipping metadata request. {"mediaIds":{"imdbId":"tt26060006","tmdbId":1000862,"tvdbId":353100},"title":"Pas de vagues"}
+2026-09-26T06:35:00.079Z [debug][Plex Scan]: Title already exists and no changes detected for Pas de vagues 
+2026-09-26T06:35:04.083Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790404204063}
+2026-09-26T06:35:04.088Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:36:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:36:00.011Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:37:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:38:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:39:00.004Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:39:00.008Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:40:00.004Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:40:00.005Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:40:00.006Z [info][Plex Scan]: Scan starting {"sessionId":"cb74c436-e32a-4280-bda6-dd94d006429f"}
+2026-09-26T06:40:00.010Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790404504083}
+2026-09-26T06:40:00.021Z [debug][Plex Scan]: GUIDs are cached. Skipping metadata request. {"mediaIds":{"imdbId":"tt26060006","tmdbId":1000862,"tvdbId":353100},"title":"Pas de vagues"}
+2026-09-26T06:40:00.032Z [debug][Plex Scan]: Title already exists and no changes detected for Pas de vagues 
+2026-09-26T06:40:00.044Z [info][Notifications]: Sending notification(s) for MEDIA_AVAILABLE {"subject":"Vaiana, la légende du bout du monde (2026)"}
+2026-09-26T06:40:00.049Z [info][Plex Scan]: Media for Vaiana, la légende du bout du monde exists. Changes were detected and the title will be updated. 
+2026-09-26T06:40:04.063Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790404504087}
+2026-09-26T06:40:04.073Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:41:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:42:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:42:00.006Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:43:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:44:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:45:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:45:00.009Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:45:00.014Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:45:00.015Z [info][Plex Scan]: Scan starting {"sessionId":"027c9338-32e2-4268-a149-e6383e5f6b2a"}
+2026-09-26T06:45:00.029Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790404804054}
+2026-09-26T06:45:00.038Z [debug][Plex Scan]: GUIDs are cached. Skipping metadata request. {"mediaIds":{"imdbId":"tt27419466","tmdbId":1108427,"tvdbId":345498},"title":"Vaiana, la légende du bout du monde"}
+2026-09-26T06:45:00.046Z [debug][Plex Scan]: Title already exists and no changes detected for Vaiana, la légende du bout du monde 
+2026-09-26T06:45:04.051Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790404804072}
+2026-09-26T06:45:04.059Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:46:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:46:43.521Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"Le Gendarme de Saint-Tropez (1964)"}
+2026-09-26T06:46:43.523Z [info][Media Request]: Sent request to Radarr {"requestId":9,"mediaId":9}
+2026-09-26T06:46:43.715Z [info][Radarr]: Radarr accepted request 
+2026-09-26T06:46:43.715Z [debug][Radarr]: Radarr add details {"movie":{"title":"Le Gendarme de Saint-Tropez","originalTitle":"Le Gendarme de Saint-Tropez","originalLanguage":{"id":2,"name":"French"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"le gendarme de sainttropez","sizeOnDisk":0,"status":"released","overview":"The ambitious police officer Cruchot is transferred to St. Tropez. He's struggling with crimes such as persistent nude swimming, but even more with his teenage daughter, who's trying to impress her rich friends by telling them her father was a millionaire and owned a yacht in the harbor.","inCinemas":"1964-09-08T00:00:00Z","physicalRelease":"2013-01-02T00:00:00Z","releaseDate":"2013-01-02T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/8/poster.jpg?h=bd4a7b99b224e9de1c10","remoteUrl":"https://image.tmdb.org/t/p/original/6510K6Y8eYLf9FJ7O4xaOnwhn2u.jpg"},{"coverType":"fanart","url":"/MediaCover/8/fanart.jpg?h=64e9c6e16af39abb5c2e","remoteUrl":"https://image.tmdb.org/t/p/original/mSwyH7ix20lqdKmPx7682gALwGu.jpg"}],"website":"","year":1964,"youTubeTrailerId":"","studio":"SNC","path":"/data/library/movies/Le Gendarme de Saint-Tropez (1964)","qualityProfileId":1,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/data/library/movies/Le Gendarme de Saint-Tropez (1964)","runtime":89,"cleanTitle":"legendarmedesainttropez","imdbId":"tt0058135","tmdbId":4727,"titleSlug":"4727","rootFolderPath":"/data/library/movies","genres":["Comedy"],"keywords":["alpes","father daughter relationship","french riviera","gendarmerie","lie","misunderstanding","naturism","nudist","nun","rembrandt","saint-tropez, france","stolen painting","transfer"],"tags":[],"added":"2026-09-26T06:46:43Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":15514,"value":7.1,"type":"user"},"tmdb":{"votes":951,"value":7.046,"type":"user"},"trakt":{"votes":587,"value":7.25043,"type":"user"}},"collection":{"title":"Le Gendarme de Saint-Tropez Collection","tmdbId":10517},"popularity":3.3724,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[],"movieFileQualities":[]},"id":8}}
+2026-09-26T06:47:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:47:20.495Z [info]: [Radarr] Removed movie Le Gendarme de Saint-Tropez 
+2026-09-26T06:47:26.335Z [debug][API]: Failed to retrieve request. {"errorMessage":"Could not find any entity of type \"MediaRequest\" matching: {\n    \"where\": {\n        \"id\": 9\n    },\n    \"relations\": {\n        \"requestedBy\": true,\n        \"modifiedBy\": true\n    }\n}"}
+2026-09-26T06:47:35.045Z [info][Media Request]: Request has an override quality profile ID: 6 {"requestId":10,"mediaId":10}
+2026-09-26T06:47:35.048Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"Le Gendarme de Saint-Tropez (1964)"}
+2026-09-26T06:47:35.049Z [info][Media Request]: Sent request to Radarr {"requestId":10,"mediaId":10}
+2026-09-26T06:47:35.168Z [info][Radarr]: Radarr accepted request 
+2026-09-26T06:47:35.168Z [debug][Radarr]: Radarr add details {"movie":{"title":"Le Gendarme de Saint-Tropez","originalTitle":"Le Gendarme de Saint-Tropez","originalLanguage":{"id":2,"name":"French"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"le gendarme de sainttropez","sizeOnDisk":0,"status":"released","overview":"The ambitious police officer Cruchot is transferred to St. Tropez. He's struggling with crimes such as persistent nude swimming, but even more with his teenage daughter, who's trying to impress her rich friends by telling them her father was a millionaire and owned a yacht in the harbor.","inCinemas":"1964-09-08T00:00:00Z","physicalRelease":"2013-01-02T00:00:00Z","releaseDate":"2013-01-02T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/9/poster.jpg?h=bd4a7b99b224e9de1c10","remoteUrl":"https://image.tmdb.org/t/p/original/6510K6Y8eYLf9FJ7O4xaOnwhn2u.jpg"},{"coverType":"fanart","url":"/MediaCover/9/fanart.jpg?h=64e9c6e16af39abb5c2e","remoteUrl":"https://image.tmdb.org/t/p/original/mSwyH7ix20lqdKmPx7682gALwGu.jpg"}],"website":"","year":1964,"youTubeTrailerId":"","studio":"SNC","path":"/data/library/movies/Le Gendarme de Saint-Tropez (1964)","qualityProfileId":6,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/data/library/movies/Le Gendarme de Saint-Tropez (1964)","runtime":89,"cleanTitle":"legendarmedesainttropez","imdbId":"tt0058135","tmdbId":4727,"titleSlug":"4727","rootFolderPath":"/data/library/movies","genres":["Comedy"],"keywords":["alpes","father daughter relationship","french riviera","gendarmerie","lie","misunderstanding","naturism","nudist","nun","rembrandt","saint-tropez, france","stolen painting","transfer"],"tags":[],"added":"2026-09-26T06:47:35Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":15514,"value":7.1,"type":"user"},"tmdb":{"votes":951,"value":7.046,"type":"user"},"trakt":{"votes":587,"value":7.25043,"type":"user"}},"collection":{"title":"Le Gendarme de Saint-Tropez Collection","tmdbId":10517},"popularity":3.3724,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[],"movieFileQualities":[]},"id":9}}
+2026-09-26T06:48:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:48:00.007Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2026-09-26T06:48:17.257Z [info]: [Radarr] Movie not in library, nothing to remove {"tmdbId":4727}
+2026-09-26T06:48:24.988Z [info][Media Request]: Request has an override quality profile ID: 6 {"requestId":11,"mediaId":11}
+2026-09-26T06:48:24.992Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"Le Gendarme de Saint-Tropez (1964)"}
+2026-09-26T06:48:24.995Z [info][Media Request]: Sent request to Radarr {"requestId":11,"mediaId":11}
+2026-09-26T06:48:25.096Z [info][Radarr]: Radarr accepted request 
+2026-09-26T06:48:25.097Z [debug][Radarr]: Radarr add details {"movie":{"title":"Le Gendarme de Saint-Tropez","originalTitle":"Le Gendarme de Saint-Tropez","originalLanguage":{"id":2,"name":"French"},"alternateTitles":[],"secondaryYearSourceId":0,"sortTitle":"le gendarme de sainttropez","sizeOnDisk":0,"status":"released","overview":"The ambitious police officer Cruchot is transferred to St. Tropez. He's struggling with crimes such as persistent nude swimming, but even more with his teenage daughter, who's trying to impress her rich friends by telling them her father was a millionaire and owned a yacht in the harbor.","inCinemas":"1964-09-08T00:00:00Z","physicalRelease":"2013-01-02T00:00:00Z","releaseDate":"2013-01-02T00:00:00Z","images":[{"coverType":"poster","url":"/MediaCover/10/poster.jpg?h=bd4a7b99b224e9de1c10","remoteUrl":"https://image.tmdb.org/t/p/original/6510K6Y8eYLf9FJ7O4xaOnwhn2u.jpg"},{"coverType":"fanart","url":"/MediaCover/10/fanart.jpg?h=64e9c6e16af39abb5c2e","remoteUrl":"https://image.tmdb.org/t/p/original/mSwyH7ix20lqdKmPx7682gALwGu.jpg"}],"website":"","year":1964,"youTubeTrailerId":"","studio":"SNC","path":"/data/library/movies/Le Gendarme de Saint-Tropez (1964)","qualityProfileId":6,"hasFile":false,"movieFileId":0,"monitored":true,"minimumAvailability":"released","isAvailable":true,"folderName":"/data/library/movies/Le Gendarme de Saint-Tropez (1964)","runtime":89,"cleanTitle":"legendarmedesainttropez","imdbId":"tt0058135","tmdbId":4727,"titleSlug":"4727","rootFolderPath":"/data/library/movies","genres":["Comedy"],"keywords":["alpes","father daughter relationship","french riviera","gendarmerie","lie","misunderstanding","naturism","nudist","nun","rembrandt","saint-tropez, france","stolen painting","transfer"],"tags":[],"added":"2026-09-26T06:48:25Z","addOptions":{"searchForMovie":true,"addMethod":"manual","ignoreEpisodesWithFiles":false,"ignoreEpisodesWithoutFiles":false,"monitor":"movieOnly"},"ratings":{"imdb":{"votes":15514,"value":7.1,"type":"user"},"tmdb":{"votes":951,"value":7.046,"type":"user"},"trakt":{"votes":587,"value":7.25043,"type":"user"}},"collection":{"title":"Le Gendarme de Saint-Tropez Collection","tmdbId":10517},"popularity":3.3724,"statistics":{"movieFileCount":0,"sizeOnDisk":0,"releaseGroups":[],"movieFileQualities":[]},"id":10}}
+2026-09-26T06:49:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:50:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:50:00.013Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2026-09-26T06:50:00.014Z [info][Plex Scan]: Scan starting {"sessionId":"acd8b148-86af-42e0-8f12-e54e105a5bf1"}
+2026-09-26T06:50:00.029Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1790405104049}
+2026-09-26T06:50:00.046Z [debug][Plex Scan]: GUIDs are cached. Skipping metadata request. {"mediaIds":{"imdbId":"tt27419466","tmdbId":1108427,"tvdbId":345498},"title":"Vaiana, la légende du bout du monde"}
+2026-09-26T06:50:00.083Z [debug][Plex Scan]: Title already exists and no changes detected for Vaiana, la légende du bout du monde 
+2026-09-26T06:50:04.088Z [info][Plex Scan]: Beginning to process recently added for library: Séries TV {"lastScan":1790405104058}
+2026-09-26T06:50:04.096Z [info][Plex Scan]: Recently Added Scan Complete 
+2026-09-26T06:51:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2026-09-26T06:51:00.016Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 

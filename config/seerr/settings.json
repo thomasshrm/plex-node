@@ -6,7 +6,7 @@
  "main": {
   "apiKey": "MTc5MDQwMTM0MzM1ODM0YjA4OThlLTEzNDYtNGVmZS04YjUwLTgzNzVkYzEyYzc3OQ==",
   "applicationTitle": "Seerr",
-  "applicationUrl": "",
+  "applicationUrl": "http://m720.local:5055",
   "cacheImages": false,
   "defaultPermissions": 32,
   "defaultQuotas": {
@@ -43,14 +43,14 @@
     "name": "Films",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1790402104081
+    "lastScan": 1790405404087
    },
    {
     "id": "2",
     "name": "Séries TV",
     "enabled": true,
     "type": "show",
-    "lastScan": 1790402104093
+    "lastScan": 1790405404095
    }
   ],
   "webAppUrl": "",

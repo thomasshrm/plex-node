@@ -1,0 +1,97 @@
+Sep 26, 2026 07:50:43.580 [140557805603584] INFO - Plex Media Scanner v1.43.4.10903-e5521bd8c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Sep 26, 2026 07:50:43.580 [140557805603584] INFO - Linux version: 6.12.107+deb13-amd64, language: en-US
+Sep 26, 2026 07:50:43.580 [140557805603584] INFO - Processor: 6-core Intel(R) Core(TM) i5-9500T CPU @ 2.20GHz
+Sep 26, 2026 07:50:43.580 [140557805603584] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 2
+Sep 26, 2026 07:50:43.581 [140557806104320] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.53.3, threadsafe=1
+Sep 26, 2026 07:50:43.667 [140557806104320] DEBUG - Analyzing media parts for item 2 (Unabomber): 2
+Sep 26, 2026 07:50:43.668 [140557806104320] DEBUG - [ID 2] Media part analysis: /data/library/movies/UNABOMBER (2026)/Unabomber.2026.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv
+Sep 26, 2026 07:50:43.668 [140557806104320] DEBUG - [MI] Opening input file: "/data/library/movies/UNABOMBER (2026)/Unabomber.2026.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv"
+Sep 26, 2026 07:50:43.668 [140557806104320] DEBUG - [FFMPEG] - Opening '/data/library/movies/UNABOMBER (2026)/Unabomber.2026.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv' for reading
+Sep 26, 2026 07:50:43.668 [140557806104320] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Sep 26, 2026 07:50:43.668 [140557806104320] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Sep 26, 2026 07:50:43.668 [140557806104320] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8373
+Sep 26, 2026 07:50:43.668 [140557806104320] DEBUG - [FFMPEG] - Unknown entry 0x437D at pos. 8423
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:32 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:33 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:34 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - st:35 removing common factor 1000000 from timebase
+Sep 26, 2026 07:50:43.669 [140557806104320] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 8535 bytes read:42806 seeks:2 nb_streams:36
+Sep 26, 2026 07:50:43.670 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 26, 2026 07:50:43.670 [140557806104320] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:50:43.670 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 26, 2026 07:50:43.670 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 26, 2026 07:50:43.670 [140557806104320] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:50:43.670 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 26, 2026 07:50:43.671 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.671 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.671 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.671 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 26, 2026 07:50:43.671 [140557806104320] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 26, 2026 07:50:43.673 [140557806104320] DEBUG - [FFMPEG] - no picture 
+Sep 26, 2026 07:50:43.675 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.675 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 26, 2026 07:50:43.678 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.678 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.682 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.682 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.686 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.686 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 26, 2026 07:50:43.687 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.687 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.689 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.689 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.694 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 26, 2026 07:50:43.694 [140557806104320] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 26, 2026 07:50:43.695 [140557806104320] DEBUG - [FFMPEG] - All info found
+Sep 26, 2026 07:50:43.696 [140557806104320] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 59675 bytes read:108342 seeks:2 frames:25
+Sep 26, 2026 07:50:43.701 [140557806104320] DEBUG - [MI]  * 9c76f8594055773eff886eaff7d97bf48423b4ee [mkv h264/eac3] Duration: 6006016ms, 1920x1080 (1.777778) 24.000fps, bitrate=5581kbps, audio channels=6, optimizedForStreaming=0 ("/data/library/movies/UNABOMBER (2026)/Unabomber.2026.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv")
+Sep 26, 2026 07:50:43.701 [140557806104320] DEBUG - [MI] Importing 2 media chapters.
+Sep 26, 2026 07:50:43.701 [140557806104320] DEBUG - [MI] Closing input file: "/data/library/movies/UNABOMBER (2026)/Unabomber.2026.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv"
+Sep 26, 2026 07:50:43.701 [140557806104320] DEBUG - Committing media stream changes for part 2
+Sep 26, 2026 07:50:43.702 [140557806104320] DEBUG - Updating media item 2, size=4190499383, metadata_item_id=2
+Sep 26, 2026 07:50:43.702 [140557806104320] DEBUG - Updating part with ID=2 [/data/library/movies/UNABOMBER (2026)/Unabomber.2026.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv]
+Sep 26, 2026 07:50:43.703 [140557792750336] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=2&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Sep 26, 2026 07:50:43.703 [140557792602880] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=2&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Sep 26, 2026 07:50:43.703 [140557792750336] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=2&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Sep 26, 2026 07:50:43.704 [140557792602880] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=2&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Sep 26, 2026 07:50:43.706 [140557806104320] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Sep 26, 2026 07:50:43.706 [140557806104320] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Sep 26, 2026 07:50:43.707 [140557792602880] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Sep 26, 2026 07:50:43.707 [140557806104320] DEBUG - Updating metadata item (save) (Unabomber) with ID 2
+Sep 26, 2026 07:50:43.708 [140557806104320] DEBUG - Doing expensive tags write for 'Unabomber' because something changed.
+Sep 26, 2026 07:50:43.709 [140557806104320] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Sep 26, 2026 07:50:43.709 [140557806104320] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Sep 26, 2026 07:50:43.710 [140557792602880] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Sep 26, 2026 07:50:43.710 [140557806104320] DEBUG - Updating metadata item (save) (Unabomber) with ID 2

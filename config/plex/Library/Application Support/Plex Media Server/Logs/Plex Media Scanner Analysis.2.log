@@ -1,55 +1,346 @@
-Sep 26, 2026 07:50:42.902 [140486885112576] INFO - Plex Media Scanner v1.43.4.10903-e5521bd8c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
-Sep 26, 2026 07:50:42.902 [140486885112576] INFO - Linux version: 6.12.107+deb13-amd64, language: en-US
-Sep 26, 2026 07:50:42.902 [140486885112576] INFO - Processor: 6-core Intel(R) Core(TM) i5-9500T CPU @ 2.20GHz
-Sep 26, 2026 07:50:42.902 [140486885112576] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 1
-Sep 26, 2026 07:50:42.902 [140486885613312] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.53.3, threadsafe=1
-Sep 26, 2026 07:50:42.999 [140486885613312] DEBUG - Analyzing media parts for item 1 (Florence Foresti: Boys boys boys): 1
-Sep 26, 2026 07:50:42.999 [140486885613312] DEBUG - [ID 1] Media part analysis: /data/library/movies/Florence.Foresti.Boys.Boys.Boys.2024.FRENCH.AD.1080p.AMZN.WEB.H264-BYOR.mkv
-Sep 26, 2026 07:50:43.000 [140486885613312] DEBUG - [MI] Opening input file: "/data/library/movies/Florence.Foresti.Boys.Boys.Boys.2024.FRENCH.AD.1080p.AMZN.WEB.H264-BYOR.mkv"
-Sep 26, 2026 07:50:43.002 [140486885613312] DEBUG - [FFMPEG] - Opening '/data/library/movies/Florence.Foresti.Boys.Boys.Boys.2024.FRENCH.AD.1080p.AMZN.WEB.H264-BYOR.mkv' for reading
-Sep 26, 2026 07:50:43.003 [140486885613312] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
-Sep 26, 2026 07:50:43.008 [140486885613312] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
-Sep 26, 2026 07:50:43.009 [140486885613312] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
-Sep 26, 2026 07:50:43.009 [140486885613312] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
-Sep 26, 2026 07:50:43.009 [140486885613312] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
-Sep 26, 2026 07:50:43.009 [140486885613312] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
-Sep 26, 2026 07:50:43.010 [140486885613312] INFO - CodecManager: obtaining decoder 'h264'
-Sep 26, 2026 07:50:43.010 [140486885613312] DEBUG - [HCl#1] HTTP requesting GET https://servers.plex.tv/api/codecs/h264_decoder?build=linux-x86_64-standard&deviceId=f8e56ef4-35b1-4ec5-b67f-9d2c48ab5cc0&oldestPreviousVersion=1%2E43%2E4%2E10903-e5521bd8c&version=a336ba9-16a9aaf440ee9a92b75f070b
-Sep 26, 2026 07:50:43.223 [140486875347712] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.2s) 200 response from GET https://servers.plex.tv/api/codecs/h264_decoder?build=linux-x86_64-standard&deviceId=f8e56ef4-35b1-4ec5-b67f-9d2c48ab5cc0&oldestPreviousVersion=1%2E43%2E4%2E10903-e5521bd8c&version=a336ba9-16a9aaf440ee9a92b75f070b
-Sep 26, 2026 07:50:43.224 [140486873459456] DEBUG - [GetFile/HCl#2] HTTP requesting GET https://downloads.plex.tv/codecs/a336ba9-16a9aaf440ee9a92b75f070b/linux-x86_64-standard/libh264_decoder.so
-Sep 26, 2026 07:50:43.455 [140486875347712] DEBUG - [HttpClient/HCl#2] HTTP/2.0 (0.2s) 200 response from GET https://downloads.plex.tv/codecs/a336ba9-16a9aaf440ee9a92b75f070b/linux-x86_64-standard/libh264_decoder.so
-Sep 26, 2026 07:50:43.478 [140486885613312] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5794 bytes read:34075 seeks:2 nb_streams:4
-Sep 26, 2026 07:50:43.483 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Sep 26, 2026 07:50:43.483 [140486885613312] DEBUG - [FFMPEG] - Decoding VUI
-Sep 26, 2026 07:50:43.483 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Sep 26, 2026 07:50:43.484 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
-Sep 26, 2026 07:50:43.485 [140486885613312] DEBUG - [FFMPEG] - Decoding VUI
-Sep 26, 2026 07:50:43.485 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
-Sep 26, 2026 07:50:43.486 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
-Sep 26, 2026 07:50:43.486 [140486885613312] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
-Sep 26, 2026 07:50:43.497 [140486885613312] DEBUG - [FFMPEG] - no picture 
-Sep 26, 2026 07:50:43.503 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
-Sep 26, 2026 07:50:43.509 [140486885613312] DEBUG - [FFMPEG] - no picture 
-Sep 26, 2026 07:50:43.513 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
-Sep 26, 2026 07:50:43.519 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
-Sep 26, 2026 07:50:43.524 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
-Sep 26, 2026 07:50:43.529 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
-Sep 26, 2026 07:50:43.532 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
-Sep 26, 2026 07:50:43.537 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
-Sep 26, 2026 07:50:43.542 [140486885613312] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
-Sep 26, 2026 07:50:43.549 [140486885613312] DEBUG - [FFMPEG] - All info found
-Sep 26, 2026 07:50:43.550 [140486885613312] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 184620 bytes read:230683 seeks:2 frames:42
-Sep 26, 2026 07:50:43.555 [140486885613312] DEBUG - [MI]  * 2e8556b8fc937bbf8c4db0c7c4fab8fed4163f81 [mkv h264/eac3] Duration: 4814688ms, 1920x1080 (1.777778) 25.000fps, bitrate=8495kbps, audio channels=2, optimizedForStreaming=0 ("/data/library/movies/Florence.Foresti.Boys.Boys.Boys.2024.FRENCH.AD.1080p.AMZN.WEB.H264-BYOR.mkv")
-Sep 26, 2026 07:50:43.555 [140486885613312] DEBUG - [MI] Chapters had generic titles, clearing.
-Sep 26, 2026 07:50:43.555 [140486885613312] DEBUG - [MI] Closing input file: "/data/library/movies/Florence.Foresti.Boys.Boys.Boys.2024.FRENCH.AD.1080p.AMZN.WEB.H264-BYOR.mkv"
-Sep 26, 2026 07:50:43.555 [140486885613312] DEBUG - Committing media stream changes for part 1
-Sep 26, 2026 07:50:43.556 [140486885613312] DEBUG - Updating media item 1, size=5113062846, metadata_item_id=1
-Sep 26, 2026 07:50:43.556 [140486885613312] DEBUG - Updating part with ID=1 [/data/library/movies/Florence.Foresti.Boys.Boys.Boys.2024.FRENCH.AD.1080p.AMZN.WEB.H264-BYOR.mkv]
-Sep 26, 2026 07:50:43.556 [140486869605120] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Sep 26, 2026 07:50:43.557 [140486875347712] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
-Sep 26, 2026 07:50:43.558 [140486869605120] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
-Sep 26, 2026 07:50:43.558 [140486875347712] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
-Sep 26, 2026 07:50:43.558 [140486885613312] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
-Sep 26, 2026 07:50:43.558 [140486885613312] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
-Sep 26, 2026 07:50:43.559 [140486875347712] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
-Sep 26, 2026 07:50:43.559 [140486885613312] DEBUG - Updating metadata item (save) (Florence Foresti: Boys boys boys) with ID 1
+Sep 26, 2026 07:57:55.562 [140006841363200] INFO - Plex Media Scanner v1.43.4.10903-e5521bd8c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Sep 26, 2026 07:57:55.563 [140006841363200] INFO - Linux version: 6.12.107+deb13-amd64, language: en-US
+Sep 26, 2026 07:57:55.563 [140006841363200] INFO - Processor: 6-core Intel(R) Core(TM) i5-9500T CPU @ 2.20GHz
+Sep 26, 2026 07:57:55.563 [140006841363200] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --item 4
+Sep 26, 2026 07:57:55.563 [140006841863936] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.53.3, threadsafe=1
+Sep 26, 2026 07:57:55.655 [140006841863936] DEBUG - Analyzing media parts for item 4 (Forsaken): 6
+Sep 26, 2026 07:57:55.656 [140006841863936] DEBUG - [ID 6] Media part analysis: /data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4
+Sep 26, 2026 07:57:55.656 [140006841863936] DEBUG - [MI] Opening input file: "/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4"
+Sep 26, 2026 07:57:55.656 [140006841863936] DEBUG - [FFMPEG] - Opening '/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4' for reading
+Sep 26, 2026 07:57:55.656 [140006841863936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Sep 26, 2026 07:57:55.656 [140006841863936] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Sep 26, 2026 07:57:55.657 [140006841863936] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Sep 26, 2026 07:57:55.657 [140006841863936] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Sep 26, 2026 07:57:55.668 [140006841863936] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 74452488
+Sep 26, 2026 07:57:55.673 [140006841863936] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+Sep 26, 2026 07:57:55.674 [140006841863936] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Sep 26, 2026 07:57:55.682 [140006841863936] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 290830848
+Sep 26, 2026 07:57:55.689 [140006841863936] WARN - [FFMPEG] - stream 0, timescale not set
+Sep 26, 2026 07:57:55.689 [140006841863936] INFO - CodecManager: obtaining decoder 'hevc'
+Sep 26, 2026 07:57:55.689 [140006841863936] DEBUG - [HCl#1] HTTP requesting GET https://servers.plex.tv/api/codecs/hevc_decoder?build=linux-x86_64-standard&deviceId=f8e56ef4-35b1-4ec5-b67f-9d2c48ab5cc0&oldestPreviousVersion=1%2E43%2E4%2E10903-e5521bd8c&version=a336ba9-16a9aaf440ee9a92b75f070b
+Sep 26, 2026 07:57:55.984 [140006812551936] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.3s) 200 response from GET https://servers.plex.tv/api/codecs/hevc_decoder?build=linux-x86_64-standard&deviceId=f8e56ef4-35b1-4ec5-b67f-9d2c48ab5cc0&oldestPreviousVersion=1%2E43%2E4%2E10903-e5521bd8c&version=a336ba9-16a9aaf440ee9a92b75f070b
+Sep 26, 2026 07:57:55.985 [140006809688832] DEBUG - [GetFile/HCl#2] HTTP requesting GET https://downloads.plex.tv/codecs/a336ba9-16a9aaf440ee9a92b75f070b/linux-x86_64-standard/libhevc_decoder.so
+Sep 26, 2026 07:57:56.196 [140006812551936] DEBUG - [HttpClient/HCl#2] HTTP/2.0 (0.2s) 200 response from GET https://downloads.plex.tv/codecs/a336ba9-16a9aaf440ee9a92b75f070b/linux-x86_64-standard/libhevc_decoder.so
+Sep 26, 2026 07:57:56.218 [140006841863936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 2460922467 bytes read:12767069 seeks:1 nb_streams:3
+Sep 26, 2026 07:57:56.220 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.225 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:56.225 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.225 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.225 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:56.225 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.225 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:56.225 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.225 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:56.417 [140006841863936] DEBUG - [FFMPEG] - All info found
+Sep 26, 2026 07:57:56.417 [140006841863936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 5868 bytes read:12799837 seeks:2 frames:5
+Sep 26, 2026 07:57:56.417 [140006841863936] DEBUG - [MI] Opening "/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4" for MP4 atom parsing
+Sep 26, 2026 07:57:56.417 [140006841863936] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Sep 26, 2026 07:57:56.417 [140006841863936] DEBUG - Mp4AtomParser: Skipping free atom of size 8 at offset 32
+Sep 26, 2026 07:57:56.417 [140006841863936] DEBUG - Mp4AtomParser: Skipping mdat atom of size 2448188126 at offset 40
+Sep 26, 2026 07:57:56.417 [140006841863936] DEBUG - Mp4AtomParser: Found moov atom of size 12734301 at offset 2448188166
+Sep 26, 2026 07:57:56.420 [140006841863936] DEBUG - Mp4AtomParser: Found trak atom of size 2021542 at offset 2448188282
+Sep 26, 2026 07:57:56.420 [140006841863936] DEBUG - Mp4AtomParser: Found trak atom of size 1636392 at offset 2450209824
+Sep 26, 2026 07:57:56.420 [140006841863936] DEBUG - Mp4AtomParser: Found mdia atom of size 2021406 at offset 2448188418
+Sep 26, 2026 07:57:56.420 [140006841863936] DEBUG - Mp4AtomParser: Found minf atom of size 2021316 at offset 2448188508
+Sep 26, 2026 07:57:56.420 [140006841863936] DEBUG - Mp4AtomParser: Found stbl atom of size 2021252 at offset 2448188572
+Sep 26, 2026 07:57:56.420 [140006841863936] DEBUG - Mp4AtomParser: Found mdia atom of size 1636231 at offset 2450209960
+Sep 26, 2026 07:57:56.420 [140006841863936] DEBUG - Mp4AtomParser: Found minf atom of size 1636141 at offset 2450210050
+Sep 26, 2026 07:57:56.420 [140006841863936] DEBUG - Mp4AtomParser: Found stbl atom of size 1636081 at offset 2450210110
+Sep 26, 2026 07:57:56.425 [140006841863936] DEBUG - [MI]  * f52ee4d89bbeee86d50acf016c8d08891c413e98 [mp4 hevc/eac3] Duration: 6058976ms, 1920x800 (2.400000) 24.000fps, bitrate=3249kbps, audio channels=6, optimizedForStreaming=0 ("/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4")
+Sep 26, 2026 07:57:56.425 [140006841863936] DEBUG - [MI] Chapters had generic titles, clearing.
+Sep 26, 2026 07:57:56.425 [140006841863936] DEBUG - [MI] Closing input file: "/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4"
+Sep 26, 2026 07:57:56.434 [140006841863936] DEBUG - Committing media stream changes for part 6
+Sep 26, 2026 07:57:56.434 [140006841863936] DEBUG - Updating media item 6, size=2460922467, metadata_item_id=4
+Sep 26, 2026 07:57:56.434 [140006841863936] DEBUG - Updating part with ID=6 [/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4]
+Sep 26, 2026 07:57:56.435 [140006811540224] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=4&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Sep 26, 2026 07:57:56.435 [140006841863936] DEBUG - [MI] Opening input file: "/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4"
+Sep 26, 2026 07:57:56.435 [140006841863936] DEBUG - [FFMPEG] - Opening '/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4' for reading
+Sep 26, 2026 07:57:56.435 [140006841863936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Sep 26, 2026 07:57:56.435 [140006841863936] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Sep 26, 2026 07:57:56.435 [140006841863936] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Sep 26, 2026 07:57:56.435 [140006841863936] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Sep 26, 2026 07:57:56.435 [140006812551936] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=4&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Sep 26, 2026 07:57:56.436 [140006811540224] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=4&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing
+Sep 26, 2026 07:57:56.436 [140006812551936] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=4&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=thumbnailing (reused)
+Sep 26, 2026 07:57:56.445 [140006841863936] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 74452488
+Sep 26, 2026 07:57:56.451 [140006841863936] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+Sep 26, 2026 07:57:56.452 [140006841863936] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Sep 26, 2026 07:57:56.460 [140006841863936] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 290830848
+Sep 26, 2026 07:57:56.467 [140006841863936] WARN - [FFMPEG] - stream 0, timescale not set
+Sep 26, 2026 07:57:56.467 [140006841863936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 2460922467 bytes read:12767069 seeks:1 nb_streams:3
+Sep 26, 2026 07:57:56.468 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.469 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:56.469 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.469 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.469 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:56.469 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.469 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:56.469 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.469 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:56.635 [140006841863936] DEBUG - [FFMPEG] - All info found
+Sep 26, 2026 07:57:56.635 [140006841863936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 5868 bytes read:12799837 seeks:2 frames:5
+Sep 26, 2026 07:57:56.635 [140006841863936] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/f/52ee4d89bbeee86d50acf016c8d08891c413e98.bundle/Contents/Thumbnails/thumb1.jpg (50.0%, 720x512).
+Sep 26, 2026 07:57:56.636 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.637 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.638 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:56.638 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.642 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:56.642 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.642 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:56.642 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:56.642 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:56.642 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:56.642 [140006841863936] DEBUG - [FFMPEG] - Skipped PREFIX SEI 0
+Sep 26, 2026 07:57:56.642 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:56.642 [140006841863936] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 26, 2026 07:57:56.657 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Sep 26, 2026 07:57:56.657 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.657 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.657 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:56.664 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 6.
+Sep 26, 2026 07:57:56.664 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.664 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.664 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:56.666 [140006841863936] DEBUG - [FFMPEG] - Output frame with POC 0.
+Sep 26, 2026 07:57:56.671 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 3.
+Sep 26, 2026 07:57:56.829 [140006841863936] DEBUG - Loaded memory image of size 1920x800.
+Sep 26, 2026 07:57:56.850 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.851 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:56.851 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.851 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.851 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:56.851 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.851 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:56.851 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.851 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:56.852 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.852 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.852 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.852 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.852 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.852 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.852 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.853 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:56.853 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.856 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:56.856 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:56.856 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:56.856 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:56.856 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:56.856 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:56.856 [140006841863936] DEBUG - [FFMPEG] - Skipped PREFIX SEI 0
+Sep 26, 2026 07:57:56.856 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:56.856 [140006841863936] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 26, 2026 07:57:56.875 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Sep 26, 2026 07:57:56.875 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.875 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.875 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:56.884 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 6.
+Sep 26, 2026 07:57:56.885 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.885 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:56.885 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:56.886 [140006841863936] DEBUG - [FFMPEG] - Output frame with POC 0.
+Sep 26, 2026 07:57:56.893 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 3.
+Sep 26, 2026 07:57:57.043 [140006841863936] DEBUG - Loaded memory image of size 1920x800.
+Sep 26, 2026 07:57:57.064 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.066 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.068 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:57.068 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.071 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:57.071 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.071 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:57.071 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:57.071 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.071 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.071 [140006841863936] DEBUG - [FFMPEG] - Skipped PREFIX SEI 0
+Sep 26, 2026 07:57:57.071 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.071 [140006841863936] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 26, 2026 07:57:57.102 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Sep 26, 2026 07:57:57.102 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.102 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.102 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.123 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Sep 26, 2026 07:57:57.123 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.123 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.123 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.125 [140006841863936] DEBUG - [FFMPEG] - Output frame with POC 0.
+Sep 26, 2026 07:57:57.133 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 3.
+Sep 26, 2026 07:57:57.284 [140006841863936] DEBUG - Loaded memory image of size 1920x800.
+Sep 26, 2026 07:57:57.304 [140006841863936] DEBUG - [MI] Closing input file: "/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4"
+Sep 26, 2026 07:57:57.305 [140006841863936] DEBUG - [MI] Opening input file: "/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4"
+Sep 26, 2026 07:57:57.305 [140006841863936] DEBUG - [FFMPEG] - Opening '/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4' for reading
+Sep 26, 2026 07:57:57.305 [140006841863936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Sep 26, 2026 07:57:57.305 [140006841863936] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Sep 26, 2026 07:57:57.305 [140006841863936] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Sep 26, 2026 07:57:57.305 [140006841863936] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Sep 26, 2026 07:57:57.315 [140006841863936] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 74452488
+Sep 26, 2026 07:57:57.321 [140006841863936] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+Sep 26, 2026 07:57:57.321 [140006841863936] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Sep 26, 2026 07:57:57.329 [140006841863936] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 290830848
+Sep 26, 2026 07:57:57.336 [140006841863936] WARN - [FFMPEG] - stream 0, timescale not set
+Sep 26, 2026 07:57:57.336 [140006841863936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 2460922467 bytes read:12767069 seeks:1 nb_streams:3
+Sep 26, 2026 07:57:57.336 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.338 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:57.338 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.338 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.338 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:57.338 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.338 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:57.338 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.338 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:57.501 [140006841863936] DEBUG - [FFMPEG] - All info found
+Sep 26, 2026 07:57:57.502 [140006841863936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 5868 bytes read:12799837 seeks:2 frames:5
+Sep 26, 2026 07:57:57.502 [140006841863936] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/f/52ee4d89bbeee86d50acf016c8d08891c413e98.bundle/Contents/Art/art1.jpg (50.0%, 1280x720).
+Sep 26, 2026 07:57:57.502 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.503 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:57.503 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.503 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.503 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:57.503 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.503 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:57.503 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.503 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:57.504 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.504 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.504 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.504 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.504 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.504 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.504 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.505 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:57.505 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.508 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:57.508 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.508 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:57.508 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:57.508 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.508 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.508 [140006841863936] DEBUG - [FFMPEG] - Skipped PREFIX SEI 0
+Sep 26, 2026 07:57:57.508 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.508 [140006841863936] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 26, 2026 07:57:57.524 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Sep 26, 2026 07:57:57.524 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.524 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.524 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.531 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 6.
+Sep 26, 2026 07:57:57.531 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.531 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.531 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.533 [140006841863936] DEBUG - [FFMPEG] - Output frame with POC 0.
+Sep 26, 2026 07:57:57.538 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 3.
+Sep 26, 2026 07:57:57.690 [140006841863936] DEBUG - Loaded memory image of size 1920x800.
+Sep 26, 2026 07:57:57.739 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.740 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.741 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:57.741 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.744 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:57.744 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.744 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:57.744 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:57.744 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.744 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.744 [140006841863936] DEBUG - [FFMPEG] - Skipped PREFIX SEI 0
+Sep 26, 2026 07:57:57.744 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.745 [140006841863936] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 26, 2026 07:57:57.763 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Sep 26, 2026 07:57:57.763 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.763 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.763 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.772 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 6.
+Sep 26, 2026 07:57:57.772 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.772 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.772 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.774 [140006841863936] DEBUG - [FFMPEG] - Output frame with POC 0.
+Sep 26, 2026 07:57:57.781 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 3.
+Sep 26, 2026 07:57:57.931 [140006841863936] DEBUG - Loaded memory image of size 1920x800.
+Sep 26, 2026 07:57:57.981 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.983 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:57.983 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.983 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.983 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:57.983 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.983 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:57.983 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.983 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:57.984 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.984 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.984 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.984 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.984 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.984 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.984 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 20(IDR_N_LP), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:57.986 [140006841863936] DEBUG - [FFMPEG] - Decoding VPS
+Sep 26, 2026 07:57:57.986 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.989 [140006841863936] DEBUG - [FFMPEG] - Decoding SPS
+Sep 26, 2026 07:57:57.989 [140006841863936] DEBUG - [FFMPEG] - Main profile bitstream
+Sep 26, 2026 07:57:57.989 [140006841863936] DEBUG - [FFMPEG] - Decoding VUI
+Sep 26, 2026 07:57:57.989 [140006841863936] DEBUG - [FFMPEG] - Decoding PPS
+Sep 26, 2026 07:57:57.989 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.989 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.989 [140006841863936] DEBUG - [FFMPEG] - Skipped PREFIX SEI 0
+Sep 26, 2026 07:57:57.989 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:57.989 [140006841863936] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 26, 2026 07:57:58.019 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 0.
+Sep 26, 2026 07:57:58.020 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:58.020 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:58.020 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:58.039 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 5.
+Sep 26, 2026 07:57:58.039 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 39(SEI_PREFIX), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:58.039 [140006841863936] DEBUG - [FFMPEG] - nal_unit_type: 1(TRAIL_R), nuh_layer_id: 0, temporal_id: 0
+Sep 26, 2026 07:57:58.039 [140006841863936] DEBUG - [FFMPEG] - Decoding SEI
+Sep 26, 2026 07:57:58.041 [140006841863936] DEBUG - [FFMPEG] - Output frame with POC 0.
+Sep 26, 2026 07:57:58.049 [140006841863936] DEBUG - [FFMPEG] - Decoded frame with POC 3.
+Sep 26, 2026 07:57:58.199 [140006841863936] DEBUG - Loaded memory image of size 1920x800.
+Sep 26, 2026 07:57:58.250 [140006841863936] DEBUG - [MI] Closing input file: "/data/library/movies/Forsaken (2026)/L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4"
+Sep 26, 2026 07:57:58.251 [140006841863936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Sep 26, 2026 07:57:58.251 [140006841863936] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Sep 26, 2026 07:57:58.252 [140006812551936] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Sep 26, 2026 07:57:58.252 [140006841863936] DEBUG - Updating metadata item (save) (Forsaken) with ID 4
+Sep 26, 2026 07:57:58.253 [140006811540224] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=4&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Sep 26, 2026 07:57:58.254 [140006812551936] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=4&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Sep 26, 2026 07:57:58.255 [140006841863936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Sep 26, 2026 07:57:58.255 [140006841863936] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Sep 26, 2026 07:57:58.256 [140006812551936] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Sep 26, 2026 07:57:58.256 [140006841863936] DEBUG - Updating metadata item (save) (Forsaken) with ID 4

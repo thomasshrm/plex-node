@@ -183,3 +183,4 @@ URLError: <urlopen error [Errno -2] Name does not resolve>
 2026-09-26 07:14:43,840 (7ffbfbb00b38) :  DEBUG (peerservice:233) - Updating existing server plex-server-m720 (6df3ed7548de3b00ee90a8ae9e1674cc38d68e78)
 2026-09-26 07:14:43,840 (7ffbfbb00b38) :  DEBUG (networking:158) - Requesting 'http://127.0.0.1:32400/library/sections'
 2026-09-26 07:14:43,842 (7ffbfbb00b38) :  DEBUG (networking:158) - Requesting 'http://127.0.0.1:32400/channels/all'
+2026-09-26 08:12:43,855 (7ffbfba9eb38) :  DEBUG (runtime:1160) - Starting timed thread named 'invalidation_timer'

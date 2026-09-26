@@ -582,3 +582,80 @@
 2026-09-26 07:58:19.9|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=tvsearch&cat=5000%2C5060%2C5070%2C5080&limit=100
 2026-09-26 07:58:19.9|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=tvsearch&cat=5000%2C5060%2C5070%2C5080&limit=100
 2026-09-26 07:58:20.1|Debug|ReleaseSearchService|Total of 100 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070] from 1 indexer(s)
+2026-09-26 08:13:18.9|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:13:18.9|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&limit=100
+2026-09-26 08:13:18.9|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&limit=100
+2026-09-26 08:13:19.3|Debug|ReleaseSearchService|Total of 100 reports were found for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:13:50.2|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2026-09-26 08:13:50.2|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=tvsearch&cat=5000%2C5060%2C5070%2C5080&limit=100
+2026-09-26 08:13:50.2|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=tvsearch&cat=5000%2C5060%2C5070%2C5080&limit=100
+2026-09-26 08:13:50.3|Debug|ReleaseSearchService|Total of 100 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070] from 1 indexer(s)
+2026-09-26 08:24:54.0|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[26060006] TMDbId:[1000862], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:24:54.0|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt26060006&tmdbid=1000862&limit=100
+2026-09-26 08:24:54.0|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt26060006&tmdbid=1000862&limit=100
+2026-09-26 08:24:54.2|Debug|ReleaseSearchService|Total of 3 reports were found for Term: [] | ID(s): IMDbId:[26060006] TMDbId:[1000862], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:24:58.2|Debug|Cardigann|Downloaded for release finished (20546 bytes from https://c411.org/api?t=get&id=(removed)&apikey=(removed)
+2026-09-26 08:26:47.7|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[9243946] TMDbId:[559969], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:26:47.7|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt9243946&tmdbid=559969&limit=100
+2026-09-26 08:26:47.7|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt9243946&tmdbid=559969&limit=100
+2026-09-26 08:26:47.9|Debug|ReleaseSearchService|Total of 9 reports were found for Term: [] | ID(s): IMDbId:[9243946] TMDbId:[559969], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:27:46.6|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[9243946] TMDbId:[559969], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:27:46.6|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt9243946&tmdbid=559969&limit=100
+2026-09-26 08:27:46.6|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt9243946&tmdbid=559969&limit=100
+2026-09-26 08:27:46.7|Debug|ReleaseSearchService|Total of 9 reports were found for Term: [] | ID(s): IMDbId:[9243946] TMDbId:[559969], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:29:20.4|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2026-09-26 08:29:20.4|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=tvsearch&cat=5000%2C5060%2C5070%2C5080&limit=100
+2026-09-26 08:29:20.4|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=tvsearch&cat=5000%2C5060%2C5070%2C5080&limit=100
+2026-09-26 08:29:20.6|Debug|ReleaseSearchService|Total of 100 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070] from 1 indexer(s)
+2026-09-26 08:32:06.4|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[33764258] TMDbId:[1368337], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:32:06.4|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt33764258&tmdbid=1368337&limit=100
+2026-09-26 08:32:06.4|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt33764258&tmdbid=1368337&limit=100
+2026-09-26 08:32:06.6|Debug|ReleaseSearchService|Total of 0 reports were found for Term: [] | ID(s): IMDbId:[33764258] TMDbId:[1368337], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:32:08.4|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [The Odyssey 2026], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:32:08.4|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=search&q=The+Odyssey+2026&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&limit=100
+2026-09-26 08:32:08.4|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=search&q=The+Odyssey+2026&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&limit=100
+2026-09-26 08:32:10.6|Debug|ReleaseSearchService|Total of 1 reports were found for Term: [The Odyssey 2026], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:32:18.8|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[33764258] TMDbId:[1368337], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:32:18.8|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt33764258&tmdbid=1368337&limit=100
+2026-09-26 08:32:18.8|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt33764258&tmdbid=1368337&limit=100
+2026-09-26 08:32:18.8|Debug|ReleaseSearchService|Total of 0 reports were found for Term: [] | ID(s): IMDbId:[33764258] TMDbId:[1368337], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:32:20.8|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [The Odyssey 2026], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:32:20.8|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=search&q=The+Odyssey+2026&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&limit=100
+2026-09-26 08:32:20.8|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=search&q=The+Odyssey+2026&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&limit=100
+2026-09-26 08:32:22.9|Debug|ReleaseSearchService|Total of 1 reports were found for Term: [The Odyssey 2026], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:32:44.1|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[27419466] TMDbId:[1108427], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:32:44.1|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt27419466&tmdbid=1108427&limit=100
+2026-09-26 08:32:44.1|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt27419466&tmdbid=1108427&limit=100
+2026-09-26 08:32:44.2|Debug|ReleaseSearchService|Total of 9 reports were found for Term: [] | ID(s): IMDbId:[27419466] TMDbId:[1108427], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:32:58.5|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[27419466] TMDbId:[1108427], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:32:58.5|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt27419466&tmdbid=1108427&limit=100
+2026-09-26 08:32:58.5|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt27419466&tmdbid=1108427&limit=100
+2026-09-26 08:32:58.5|Debug|ReleaseSearchService|Total of 9 reports were found for Term: [] | ID(s): IMDbId:[27419466] TMDbId:[1108427], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:33:16.5|Debug|Cardigann|Downloaded for release finished (13653 bytes from https://c411.org/api?t=get&id=(removed)&apikey=(removed)
+2026-09-26 08:43:49.4|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:43:49.4|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&limit=100
+2026-09-26 08:43:49.4|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&limit=100
+2026-09-26 08:43:49.7|Debug|ReleaseSearchService|Total of 100 reports were found for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:44:50.6|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2026-09-26 08:44:50.6|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=tvsearch&cat=5000%2C5060%2C5070%2C5080&limit=100
+2026-09-26 08:44:50.6|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=tvsearch&cat=5000%2C5060%2C5070%2C5080&limit=100
+2026-09-26 08:44:50.8|Debug|ReleaseSearchService|Total of 100 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070] from 1 indexer(s)
+2026-09-26 08:46:43.8|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[0058135] TMDbId:[4727], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:46:43.8|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt0058135&tmdbid=4727&limit=100
+2026-09-26 08:46:43.8|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt0058135&tmdbid=4727&limit=100
+2026-09-26 08:46:44.0|Debug|ReleaseSearchService|Total of 7 reports were found for Term: [] | ID(s): IMDbId:[0058135] TMDbId:[4727], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:46:48.1|Debug|Cardigann|Downloaded for release finished (296551 bytes from https://c411.org/api?t=get&id=(removed)&apikey=(removed)
+2026-09-26 08:47:35.3|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[0058135] TMDbId:[4727], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:47:35.3|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt0058135&tmdbid=4727&limit=100
+2026-09-26 08:47:35.3|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt0058135&tmdbid=4727&limit=100
+2026-09-26 08:47:35.6|Debug|ReleaseSearchService|Total of 7 reports were found for Term: [] | ID(s): IMDbId:[0058135] TMDbId:[4727], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:48:25.2|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[0058135] TMDbId:[4727], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:48:25.2|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt0058135&tmdbid=4727&limit=100
+2026-09-26 08:48:25.2|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt0058135&tmdbid=4727&limit=100
+2026-09-26 08:48:25.3|Debug|ReleaseSearchService|Total of 7 reports were found for Term: [] | ID(s): IMDbId:[0058135] TMDbId:[4727], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:48:29.4|Debug|Cardigann|Downloaded for release finished (26045 bytes from https://c411.org/api?t=get&id=(removed)&apikey=(removed)
+2026-09-26 08:48:38.0|Info|ReleaseSearchService|Searching indexer(s): [C411] for Term: [] | ID(s): IMDbId:[0058135] TMDbId:[4727], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010]
+2026-09-26 08:48:38.0|Debug|Cardigann|Adding request for C411: https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt0058135&tmdbid=4727&limit=100
+2026-09-26 08:48:38.0|Debug|Cardigann|Downloading Feed https://c411.org/api/torznab?apikey=(removed)&t=movie&cat=2000%2C2010%2C2030%2C2050%2C2060%2C2070%2C2080%2C2090&imdbid=tt0058135&tmdbid=4727&limit=100
+2026-09-26 08:48:38.0|Debug|ReleaseSearchService|Total of 7 reports were found for Term: [] | ID(s): IMDbId:[0058135] TMDbId:[4727], Offset: 0, Limit: 100, Categories: [2000, 2020, 2010] from 1 indexer(s)
+2026-09-26 08:48:58.9|Debug|Cardigann|Downloaded for release finished (100159 bytes from https://c411.org/api?t=get&id=(removed)&apikey=(removed)

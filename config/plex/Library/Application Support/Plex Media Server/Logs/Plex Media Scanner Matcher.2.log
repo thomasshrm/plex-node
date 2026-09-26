@@ -1,7 +1,7 @@
-Sep 26, 2026 07:50:43.630 [140097335212800] INFO - Plex Media Scanner v1.43.4.10903-e5521bd8c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
-Sep 26, 2026 07:50:43.630 [140097335212800] INFO - Linux version: 6.12.107+deb13-amd64, language: en-US
-Sep 26, 2026 07:50:43.631 [140097335212800] INFO - Processor: 6-core Intel(R) Core(TM) i5-9500T CPU @ 2.20GHz
-Sep 26, 2026 07:50:43.631 [140097335212800] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 1 --content-type=application/json
-Sep 26, 2026 07:50:43.631 [140097335713536] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.53.3, threadsafe=1
-Sep 26, 2026 07:50:43.715 [140097335713536] DEBUG - Matcher: found 0 auxiliary files for Florence Foresti: Boys boys boys
-Sep 26, 2026 07:50:43.715 [140097335713536] DEBUG - Matcher: no sidecar subtitle files found for /data/library/movies/Florence.Foresti.Boys.Boys.Boys.2024.FRENCH.AD.1080p.AMZN.WEB.H264-BYOR.mkv
+Sep 26, 2026 08:00:00.042 [140112898329344] INFO - Plex Media Scanner v1.43.4.10903-e5521bd8c - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Sep 26, 2026 08:00:00.042 [140112898329344] INFO - Linux version: 6.12.107+deb13-amd64, language: en-US
+Sep 26, 2026 08:00:00.042 [140112898329344] INFO - Processor: 6-core Intel(R) Core(TM) i5-9500T CPU @ 2.20GHz
+Sep 26, 2026 08:00:00.042 [140112898329344] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 1 --content-type=application/json
+Sep 26, 2026 08:00:00.042 [140112898830080] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.53.3, threadsafe=1
+Sep 26, 2026 08:00:00.121 [140112898830080] DEBUG - Matcher: found 0 auxiliary files for Florence Foresti: Boys boys boys
+Sep 26, 2026 08:00:00.121 [140112898830080] DEBUG - Matcher: no sidecar subtitle files found for /data/library/movies/Florence.Foresti.Boys.Boys.Boys.2024.FRENCH.AD.1080p.AMZN.WEB.H264-BYOR.mkv

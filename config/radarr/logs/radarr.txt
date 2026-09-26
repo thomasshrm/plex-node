@@ -4151,3 +4151,250 @@
 2026-09-26 07:55:16.4|Info|DownloadService|Report for Forsaken (2026) sent to qBittorrent from indexer C411 (Prowlarr). L.Abandon.2026.VFF.1080p.WEB.EAC3.5.1.H265-PiCKLES
 2026-09-26 07:55:16.4|Info|MovieSearchService|Completed search for 1 movies. 1 reports downloaded.
 2026-09-26 07:56:48.9|Info|MovieService|Assigning file [L.Abandon.2026.VOF.1080p.WEB.H265-PiCKLES.mp4] to movie [[Forsaken (2026)][tt40435390, 1645368]]
+2026-09-26 08:13:18.9|Info|RssSyncService|Starting RSS Sync
+2026-09-26 08:13:19.3|Info|DownloadDecisionMaker|Processing 100 releases
+2026-09-26 08:13:19.6|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+2026-09-26 08:24:53.9|Info|AddMovieService|Adding Movie [The Good Teacher (2024)][tt26060006, 1000862] Path: [/data/library/movies/The Good Teacher (2024)]
+2026-09-26 08:24:53.9|Info|RefreshMovieService|Updating info for The Good Teacher
+2026-09-26 08:24:54.0|Info|DiskScanService|Scanning disk for The Good Teacher
+2026-09-26 08:24:54.0|Info|MediaCoverService|Downloading Poster for [The Good Teacher (2024)][tt26060006, 1000862] https://image.tmdb.org/t/p/original/haqfplSRnIwO8ha5tKOxwnG1sxP.jpg
+2026-09-26 08:24:54.0|Info|DiskScanService|Completed scanning disk for The Good Teacher
+2026-09-26 08:24:54.0|Info|MovieScannedHandler|[The Good Teacher] was recently added, performing post-add actions
+2026-09-26 08:24:54.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2026-09-26 08:24:54.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2026-09-26 08:24:54.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2026-09-26 08:24:54.0|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2026-09-26 08:24:54.0|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2026-09-26 08:24:54.0|Info|MovieSearchService|Performing search for 1 movies
+2026-09-26 08:24:54.0|Info|ReleaseSearchService|Searching indexers for [The Good Teacher]. 1 active indexers
+2026-09-26 08:24:54.1|Info|MediaCoverService|Downloading Fanart for [The Good Teacher (2024)][tt26060006, 1000862] https://image.tmdb.org/t/p/original/1SO3YnpeZB4kSBpv4IgT88dBiE8.jpg
+2026-09-26 08:24:54.2|Info|DownloadDecisionMaker|Processing 3 releases
+2026-09-26 08:24:54.9|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2026-09-26 08:24:58.3|Info|DownloadService|Report for The Good Teacher (2024) sent to qBittorrent from indexer C411 (Prowlarr). Pas.De.Vagues.2024.VOF.1080p.WEB.EAC3.5.1.H265-FW
+2026-09-26 08:24:58.3|Info|MovieSearchService|Completed search for 1 movies. 1 reports downloaded.
+2026-09-26 08:26:47.6|Info|AddMovieService|Adding Movie [El Camino: A Breaking Bad Movie (2019)][tt9243946, 559969] Path: [/data/library/movies/El Camino - A Breaking Bad Movie (2019)]
+2026-09-26 08:26:47.6|Info|RefreshMovieService|Updating info for El Camino: A Breaking Bad Movie
+2026-09-26 08:26:47.7|Info|DiskScanService|Scanning disk for El Camino: A Breaking Bad Movie
+2026-09-26 08:26:47.7|Info|MediaCoverService|Downloading Poster for [El Camino: A Breaking Bad Movie (2019)][tt9243946, 559969] https://image.tmdb.org/t/p/original/ePXuKdXZuJx8hHMNr2yM4jY2L7Z.jpg
+2026-09-26 08:26:47.7|Info|DiskScanService|Completed scanning disk for El Camino: A Breaking Bad Movie
+2026-09-26 08:26:47.7|Info|MovieScannedHandler|[El Camino: A Breaking Bad Movie] was recently added, performing post-add actions
+2026-09-26 08:26:47.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2026-09-26 08:26:47.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2026-09-26 08:26:47.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2026-09-26 08:26:47.7|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2026-09-26 08:26:47.7|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2026-09-26 08:26:47.7|Info|MovieSearchService|Performing search for 1 movies
+2026-09-26 08:26:47.7|Info|ReleaseSearchService|Searching indexers for [El Camino: A Breaking Bad Movie]. 1 active indexers
+2026-09-26 08:26:47.9|Info|MediaCoverService|Downloading Fanart for [El Camino: A Breaking Bad Movie (2019)][tt9243946, 559969] https://image.tmdb.org/t/p/original/uLXK1LQM28XovWHPao3ViTeggXA.jpg
+2026-09-26 08:26:48.0|Info|DownloadDecisionMaker|Processing 9 releases
+2026-09-26 08:26:48.0|Info|MovieSearchService|Completed search for 1 movies. 0 reports downloaded.
+2026-09-26 08:26:48.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2026-09-26 08:27:46.6|Info|MovieSearchService|Performing search for 1 movies
+2026-09-26 08:27:46.6|Info|ReleaseSearchService|Searching indexers for [El Camino: A Breaking Bad Movie]. 1 active indexers
+2026-09-26 08:27:46.7|Info|DownloadDecisionMaker|Processing 9 releases
+2026-09-26 08:27:46.8|Info|MovieSearchService|Completed search for 1 movies. 0 reports downloaded.
+2026-09-26 08:27:49.2|Info|MovieService|Assigning file [Pas.de.vagues.2024.FRENCH.1080p.WEB.H265-FW.mkv] to movie [[The Good Teacher (2024)][tt26060006, 1000862]]
+2026-09-26 08:29:17.0|Info|AddMovieService|Adding Movie [Resident Evil (2026)][tt35538033, 1423191] Path: [/data/library/movies/Resident Evil (2026)]
+2026-09-26 08:29:17.0|Info|RefreshMovieService|Updating info for Resident Evil
+2026-09-26 08:29:17.2|Info|MediaCoverService|Downloading Poster for [Resident Evil (2026)][tt35538033, 1423191] https://image.tmdb.org/t/p/original/oRHuTPN8f5POBWKMM7zWizqhN8E.jpg
+2026-09-26 08:29:17.2|Info|DiskScanService|Scanning disk for Resident Evil
+2026-09-26 08:29:17.2|Info|DiskScanService|Completed scanning disk for Resident Evil
+2026-09-26 08:29:17.2|Info|MovieScannedHandler|[Resident Evil] was recently added, performing post-add actions
+2026-09-26 08:29:17.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2026-09-26 08:29:17.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2026-09-26 08:29:17.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2026-09-26 08:29:17.2|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2026-09-26 08:29:17.2|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2026-09-26 08:29:17.2|Info|MovieSearchService|Performing search for 0 movies
+2026-09-26 08:29:17.2|Info|MovieSearchService|Completed search for 0 movies. 0 reports downloaded.
+2026-09-26 08:29:17.4|Info|MediaCoverService|Downloading Fanart for [Resident Evil (2026)][tt35538033, 1423191] https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg
+2026-09-26 08:29:17.9|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2026-09-26 08:30:33.2|Info|RefreshMovieService|Updating info for Resident Evil
+2026-09-26 08:30:33.3|Info|DiskScanService|Scanning disk for Resident Evil
+2026-09-26 08:30:33.3|Info|DiskScanService|Completed scanning disk for Resident Evil
+2026-09-26 08:30:33.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2026-09-26 08:30:33.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2026-09-26 08:30:33.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2026-09-26 08:30:33.3|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2026-09-26 08:30:33.3|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2026-09-26 08:30:57.6|Info|MovieService|Deleted movie [Resident Evil (2026)][tt35538033, 1423191]
+2026-09-26 08:31:01.4|Info|MovieService|Deleted movie [El Camino: A Breaking Bad Movie (2019)][tt9243946, 559969]
+2026-09-26 08:31:22.1|Info|AddMovieService|Adding Movie [The Odyssey (2026)][tt33764258, 1368337] Path: [/data/library/movies/The Odyssey (2026)]
+2026-09-26 08:31:22.2|Info|RefreshMovieService|Updating info for The Odyssey
+2026-09-26 08:31:22.3|Info|MediaCoverService|Downloading Poster for [The Odyssey (2026)][tt33764258, 1368337] https://image.tmdb.org/t/p/original/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
+2026-09-26 08:31:22.3|Info|DiskScanService|Scanning disk for The Odyssey
+2026-09-26 08:31:22.3|Info|DiskScanService|Completed scanning disk for The Odyssey
+2026-09-26 08:31:22.3|Info|MovieScannedHandler|[The Odyssey] was recently added, performing post-add actions
+2026-09-26 08:31:22.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2026-09-26 08:31:22.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2026-09-26 08:31:22.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2026-09-26 08:31:22.3|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2026-09-26 08:31:22.3|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2026-09-26 08:31:22.3|Info|MovieSearchService|Performing search for 0 movies
+2026-09-26 08:31:22.3|Info|MovieSearchService|Completed search for 0 movies. 0 reports downloaded.
+2026-09-26 08:31:22.3|Warn|MediaCoverMapper|File /config/MediaCover/6/poster.jpg not found
+2026-09-26 08:31:22.3|Info|MediaCoverService|Downloading Fanart for [The Odyssey (2026)][tt33764258, 1368337] https://image.tmdb.org/t/p/original/RMXG8myu1aGlNUsRjtxzmpdMK0.jpg
+2026-09-26 08:31:22.7|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2026-09-26 08:31:38.6|Fatal|RadarrErrorPipeline|Request Failed. GET /api/v3/manualimport
+
+[v6.4.4.10685] System.IO.DirectoryNotFoundException: Could not find a part of the path '/data/library/movies/The Odyssey (2026)'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at NzbDrone.Common.Disk.DiskProviderBase.GetFiles(String path, Boolean recursive) in ./NzbDrone.Common/Disk/DiskProviderBase.cs:line 168
+   at NzbDrone.Core.MediaFiles.DiskScanService.GetVideoFiles(String path, Boolean allDirectories) in ./NzbDrone.Core/MediaFiles/DiskScanService.cs:line 199
+   at NzbDrone.Core.MediaFiles.MovieImport.Manual.ManualImportService.GetMediaFiles(Int32 movieId) in ./NzbDrone.Core/MediaFiles/MovieImport/Manual/ManualImportService.cs:line 83
+   at Radarr.Api.V3.ManualImport.ManualImportController.GetMediaFiles(String folder, String downloadId, Nullable`1 movieId, Boolean filterExistingFiles) in ./Radarr.Api.V3/ManualImport/ManualImportController.cs:line 31
+   at lambda_method413(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/BufferingMiddleware.cs:line 27
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/IfModifiedMiddleware.cs:line 40
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/CacheHeaderMiddleware.cs:line 32
+   at Radarr.Http.Middleware.StartingUpMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/StartingUpMiddleware.cs:line 37
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/UrlBaseMiddleware.cs:line 28
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/VersionMiddleware.cs:line 28
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+
+2026-09-26 08:32:06.4|Info|ReleaseSearchService|Searching indexers for [The Odyssey]. 1 active indexers
+2026-09-26 08:32:10.6|Info|DownloadDecisionMaker|Processing 1 releases
+2026-09-26 08:32:18.8|Info|MovieSearchService|Performing search for 1 movies
+2026-09-26 08:32:18.8|Info|ReleaseSearchService|Searching indexers for [The Odyssey]. 1 active indexers
+2026-09-26 08:32:22.9|Info|DownloadDecisionMaker|Processing 1 releases
+2026-09-26 08:32:22.9|Info|MovieSearchService|Completed search for 1 movies. 0 reports downloaded.
+2026-09-26 08:32:43.9|Info|AddMovieService|Adding Movie [Moana (2026)][tt27419466, 1108427] Path: [/data/library/movies/Moana (2026)]
+2026-09-26 08:32:44.0|Info|RefreshMovieService|Updating info for Moana
+2026-09-26 08:32:44.0|Info|MediaCoverService|Downloading Poster for [Moana (2026)][tt27419466, 1108427] https://image.tmdb.org/t/p/original/gaet1xQ2nxrG0V1Ep9T20ZMNEIC.jpg
+2026-09-26 08:32:44.0|Info|DiskScanService|Scanning disk for Moana
+2026-09-26 08:32:44.0|Info|DiskScanService|Completed scanning disk for Moana
+2026-09-26 08:32:44.0|Info|MovieScannedHandler|[Moana] was recently added, performing post-add actions
+2026-09-26 08:32:44.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2026-09-26 08:32:44.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2026-09-26 08:32:44.1|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2026-09-26 08:32:44.1|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2026-09-26 08:32:44.1|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2026-09-26 08:32:44.1|Info|MovieSearchService|Performing search for 1 movies
+2026-09-26 08:32:44.1|Info|ReleaseSearchService|Searching indexers for [Moana]. 1 active indexers
+2026-09-26 08:32:44.2|Info|DownloadDecisionMaker|Processing 9 releases
+2026-09-26 08:32:44.2|Info|MediaCoverService|Downloading Fanart for [Moana (2026)][tt27419466, 1108427] https://image.tmdb.org/t/p/original/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg
+2026-09-26 08:32:44.3|Info|MovieSearchService|Completed search for 1 movies. 0 reports downloaded.
+2026-09-26 08:32:44.7|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2026-09-26 08:32:58.5|Info|ReleaseSearchService|Searching indexers for [Moana]. 1 active indexers
+2026-09-26 08:32:58.6|Info|DownloadDecisionMaker|Processing 9 releases
+2026-09-26 08:33:16.5|Info|DownloadService|Report for Moana (2026) sent to qBittorrent from indexer C411 (Prowlarr). Vaiana.La.Legende.Du.Bout.Du.Monde.2026.MULTI.VF2.2160p.WEBRip.DV.HDR10Plus.EAC3.5.1.x265-SpK79
+2026-09-26 08:37:49.5|Info|MovieService|Assigning file [Moana.2026.MULTI.VF2.2160p.MA.WEBRip.DV.HDR10Plus.EAC3.5.1.x265-SpK79.mkv] to movie [[Moana (2026)][tt27419466, 1108427]]
+2026-09-26 08:43:49.4|Info|RssSyncService|Starting RSS Sync
+2026-09-26 08:43:49.7|Info|DownloadDecisionMaker|Processing 100 releases
+2026-09-26 08:43:50.0|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+2026-09-26 08:46:43.6|Info|AddMovieService|Adding Movie [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727] Path: [/data/library/movies/Le Gendarme de Saint-Tropez (1964)]
+2026-09-26 08:46:43.7|Info|RefreshMovieService|Updating info for Le Gendarme de Saint-Tropez
+2026-09-26 08:46:43.7|Info|AddMovieCollectionService|Adding Collection Le Gendarme de Saint-Tropez Collection[10517]
+2026-09-26 08:46:43.8|Info|RefreshCollectionService|Updating info for Le Gendarme de Saint-Tropez Collection
+2026-09-26 08:46:43.8|Info|DiskScanService|Scanning disk for Le Gendarme de Saint-Tropez
+2026-09-26 08:46:43.8|Info|MediaCoverService|Downloading Poster for [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727] https://image.tmdb.org/t/p/original/6510K6Y8eYLf9FJ7O4xaOnwhn2u.jpg
+2026-09-26 08:46:43.8|Info|DiskScanService|Completed scanning disk for Le Gendarme de Saint-Tropez
+2026-09-26 08:46:43.8|Info|MovieScannedHandler|[Le Gendarme de Saint-Tropez] was recently added, performing post-add actions
+2026-09-26 08:46:43.8|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2026-09-26 08:46:43.8|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2026-09-26 08:46:43.8|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2026-09-26 08:46:43.8|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2026-09-26 08:46:43.8|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2026-09-26 08:46:43.8|Info|MovieSearchService|Performing search for 1 movies
+2026-09-26 08:46:43.8|Info|ReleaseSearchService|Searching indexers for [Le Gendarme de Saint-Tropez]. 1 active indexers
+2026-09-26 08:46:43.9|Info|MediaCoverService|Downloading Fanart for [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727] https://image.tmdb.org/t/p/original/mSwyH7ix20lqdKmPx7682gALwGu.jpg
+2026-09-26 08:46:44.0|Info|DownloadDecisionMaker|Processing 7 releases
+2026-09-26 08:46:44.2|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2026-09-26 08:46:48.1|Info|DownloadService|Report for Le Gendarme de Saint-Tropez (1964) sent to qBittorrent from indexer C411 (Prowlarr). Le.Gendarme.de.Saint.Tropez.1964.VFF.2160p.UHD.BluRay.ISO.HDR10.DTS.HD.MA.2.0.HEVC-EUBDS
+2026-09-26 08:46:48.1|Info|MovieSearchService|Completed search for 1 movies. 1 reports downloaded.
+2026-09-26 08:47:20.4|Info|MovieService|Deleted movie [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727]
+2026-09-26 08:47:35.1|Info|AddMovieService|Adding Movie [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727] Path: [/data/library/movies/Le Gendarme de Saint-Tropez (1964)]
+2026-09-26 08:47:35.1|Info|RefreshMovieService|Updating info for Le Gendarme de Saint-Tropez
+2026-09-26 08:47:35.2|Info|AddMovieCollectionService|Adding Collection Le Gendarme de Saint-Tropez Collection[10517]
+2026-09-26 08:47:35.2|Info|RefreshCollectionService|Updating info for Le Gendarme de Saint-Tropez Collection
+2026-09-26 08:47:35.3|Info|MediaCoverService|Downloading Poster for [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727] https://image.tmdb.org/t/p/original/6510K6Y8eYLf9FJ7O4xaOnwhn2u.jpg
+2026-09-26 08:47:35.3|Info|DiskScanService|Scanning disk for Le Gendarme de Saint-Tropez
+2026-09-26 08:47:35.3|Info|DiskScanService|Completed scanning disk for Le Gendarme de Saint-Tropez
+2026-09-26 08:47:35.3|Info|MovieScannedHandler|[Le Gendarme de Saint-Tropez] was recently added, performing post-add actions
+2026-09-26 08:47:35.3|Info|MovieSearchService|Performing search for 1 movies
+2026-09-26 08:47:35.3|Info|ReleaseSearchService|Searching indexers for [Le Gendarme de Saint-Tropez]. 1 active indexers
+2026-09-26 08:47:35.3|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2026-09-26 08:47:35.3|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2026-09-26 08:47:35.3|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2026-09-26 08:47:35.3|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2026-09-26 08:47:35.3|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2026-09-26 08:47:35.3|Info|MediaCoverService|Downloading Fanart for [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727] https://image.tmdb.org/t/p/original/mSwyH7ix20lqdKmPx7682gALwGu.jpg
+2026-09-26 08:47:35.6|Info|DownloadDecisionMaker|Processing 7 releases
+2026-09-26 08:47:35.6|Info|MovieSearchService|Completed search for 1 movies. 0 reports downloaded.
+2026-09-26 08:47:35.6|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2026-09-26 08:48:13.1|Info|MovieService|Deleted movie [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727]
+2026-09-26 08:48:25.0|Info|AddMovieService|Adding Movie [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727] Path: [/data/library/movies/Le Gendarme de Saint-Tropez (1964)]
+2026-09-26 08:48:25.0|Info|RefreshMovieService|Updating info for Le Gendarme de Saint-Tropez
+2026-09-26 08:48:25.1|Info|AddMovieCollectionService|Adding Collection Le Gendarme de Saint-Tropez Collection[10517]
+2026-09-26 08:48:25.1|Info|RefreshCollectionService|Updating info for Le Gendarme de Saint-Tropez Collection
+2026-09-26 08:48:25.2|Info|MediaCoverService|Downloading Poster for [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727] https://image.tmdb.org/t/p/original/6510K6Y8eYLf9FJ7O4xaOnwhn2u.jpg
+2026-09-26 08:48:25.2|Info|DiskScanService|Scanning disk for Le Gendarme de Saint-Tropez
+2026-09-26 08:48:25.2|Info|DiskScanService|Completed scanning disk for Le Gendarme de Saint-Tropez
+2026-09-26 08:48:25.2|Info|MovieScannedHandler|[Le Gendarme de Saint-Tropez] was recently added, performing post-add actions
+2026-09-26 08:48:25.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2026-09-26 08:48:25.2|Info|MovieSearchService|Performing search for 1 movies
+2026-09-26 08:48:25.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2026-09-26 08:48:25.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2026-09-26 08:48:25.2|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2026-09-26 08:48:25.2|Info|ReleaseSearchService|Searching indexers for [Le Gendarme de Saint-Tropez]. 1 active indexers
+2026-09-26 08:48:25.2|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2026-09-26 08:48:25.2|Info|MediaCoverService|Downloading Fanart for [Le Gendarme de Saint-Tropez (1964)][tt0058135, 4727] https://image.tmdb.org/t/p/original/mSwyH7ix20lqdKmPx7682gALwGu.jpg
+2026-09-26 08:48:25.3|Info|DownloadDecisionMaker|Processing 7 releases
+2026-09-26 08:48:25.6|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2026-09-26 08:48:29.4|Info|DownloadService|Report for Le Gendarme de Saint-Tropez (1964) sent to qBittorrent from indexer C411 (Prowlarr). Le.Gendarme.De.Saint.Tropez.1964.VFF.1080p.BluRay.REMUX.DTS.HD.MA.2.0.AVC-NOTAG
+2026-09-26 08:48:29.4|Info|MovieSearchService|Completed search for 1 movies. 1 reports downloaded.
+2026-09-26 08:48:38.0|Info|ReleaseSearchService|Searching indexers for [Le Gendarme de Saint-Tropez]. 1 active indexers
+2026-09-26 08:48:38.1|Info|DownloadDecisionMaker|Processing 7 releases
+2026-09-26 08:48:58.9|Info|DownloadService|Report for Le Gendarme de Saint-Tropez (1964) sent to qBittorrent from indexer C411 (Prowlarr). Le.Gendarme.De.Saint-Tropez.1964.VOF.2160p.BluRay.4KLight.DV.HDR10.DTS.HD.MA.2.0.x265-QTZ
+2026-09-26 08:49:09.7|Fatal|RadarrErrorPipeline|Request Failed. GET /api/v3/manualimport
+
+[v6.4.4.10685] System.IO.DirectoryNotFoundException: Could not find a part of the path '/data/library/movies/Le Gendarme de Saint-Tropez (1964)'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at NzbDrone.Common.Disk.DiskProviderBase.GetFiles(String path, Boolean recursive) in ./NzbDrone.Common/Disk/DiskProviderBase.cs:line 168
+   at NzbDrone.Core.MediaFiles.DiskScanService.GetVideoFiles(String path, Boolean allDirectories) in ./NzbDrone.Core/MediaFiles/DiskScanService.cs:line 199
+   at NzbDrone.Core.MediaFiles.MovieImport.Manual.ManualImportService.GetMediaFiles(Int32 movieId) in ./NzbDrone.Core/MediaFiles/MovieImport/Manual/ManualImportService.cs:line 83
+   at Radarr.Api.V3.ManualImport.ManualImportController.GetMediaFiles(String folder, String downloadId, Nullable`1 movieId, Boolean filterExistingFiles) in ./Radarr.Api.V3/ManualImport/ManualImportController.cs:line 31
+   at lambda_method413(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/BufferingMiddleware.cs:line 27
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/IfModifiedMiddleware.cs:line 40
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/CacheHeaderMiddleware.cs:line 32
+   at Radarr.Http.Middleware.StartingUpMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/StartingUpMiddleware.cs:line 37
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/UrlBaseMiddleware.cs:line 28
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in ./Radarr.Http/Middleware/VersionMiddleware.cs:line 28
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+
